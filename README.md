@@ -15,6 +15,7 @@ npm install
 ### Usage
 
 **NOTE 1:** Usage requires a ChatGPT API account with a properly configured payment method.
+
 **NOTE 2:** Follow the OpenAI guide to set up your API keys in your environment before running the code: https://platform.openai.com/docs/quickstart?context=node
 
 The run_assistant app uses files located in the data folder as input as follows:
@@ -23,7 +24,7 @@ The run_assistant app uses files located in the data folder as input as follows:
 * **Questions** : The questions used to query the LLM with in a file named "questions.txt". One question per line.
 * **Prompt** : The prompt used to query the LLM in a file named "prompt.txt".
 
-The app outputs answers to the questions as a markdown formatted file in answers-run-<date>.md 
+The app outputs answers to the questions as a markdown formatted file in answers-< run-uniqueid >.md 
 
 ```
 cd code
