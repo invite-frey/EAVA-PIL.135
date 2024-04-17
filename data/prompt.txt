@@ -8,7 +8,7 @@ Definition of priority:
 
 When prioritizing, apply the following order from most critical to least critical:
 
-CRITICAL categories:
+CRITICAL categories (1-5):
 
 1. Airport operations affected by ACCIDENT or WEATHER EVENT.
 2. Airport closed ANY PERIOD of time
@@ -16,7 +16,7 @@ CRITICAL categories:
 4. Significant delay advisories
 5. Instrument landing system (ILS) unserviceable
 
-NOT CRITICAL categories:
+NOT CRITICAL categories (6-7):
 
 6. Other NAVAID (VOR, DME or NDB) unserviceable
 7. GPS RAIM outage or downgrade
@@ -30,100 +30,58 @@ NOT CRITICAL categories:
 
 Within these categories prioritize more recently issued NOTAMs. 
 
-The files are structured as json objects obtained from the ICAO data API. Here is the description of the parameters:
+The files are structured as json objects obtained from the ICAO data API. Here is a description of the parameters:
 
 -- start of file structure description --
 
-Field: 
+Field: <Type>  Description
 
-Type  Description
+StateCode: <string> ISO 3-Letter code of the State
 
-StateCode:
+StateName: <string> Name of the State
 
-string ISO 3-Letter code of the State
+id: <string> ID of the NOTAM
 
-StateName:
+entity: <string> First 2 letters of the Q-code, if available
 
- string Name of the State
+status: <string> Last 2 letters of the Q-code, if available
 
-id:
+Qcode: <string> Q-code of the NOTAM, if available
 
-string ID of the NOTAM
+Area: <string> Decoded category first 2 letters of the Q-code
 
-entity:
+SubArea: <string> Decoded area of first 2 letters of the Q-code
 
-string First 2 letters of the Q-code, if available
+Condition: <string> Decoded sub-area of first 2 letters of the Q-code
 
-status:
+Subject: <string> Decoded area of last 2 letters of the Q-code
 
-string Last 2 letters of the Q-code, if available
+Modifier: <string> Decoded sub-area of last 2 letters of the Q-code
 
-Qcode:
+message: <string> Message part of the NOTAM, if available
 
-string Q-code of the NOTAM, if available
+startdate: <string> Start datatime of the NOTAM
 
-Area:
+enddate: <string> End datatime of the NOTAM, 100 years after startdate for permanent
 
-string Decoded category first 2 letters of the Q-code
+all: <string> Full NOTAM
 
-SubArea:
+location: <string> ICAO code of the location the NOTAM applies to
 
-string Decoded area of first 2 letters of the Q-code
+isICAO: <string> If the NOTAM is compliant with Doc ABC. If false, no Q-code decoding is available
 
-Condition:
+Created: <string> Dattime the NOTAM was created
 
-string Decoded sub-area of first 2 letters of the Q-code
+key: <string> Concatenation of ID and Location to form unique id for all NOTAMS
 
-Subject:
-
-string Decoded area of last 2 letters of the Q-code
-
-Modifier:
-
-string Decoded sub-area of last 2 letters of the Q-code
-
-message:
-
-string Message part of the NOTAM, if available
-
-startdate:
-
-string Start datatime of the NOTAM
-
-enddate:
-
-string End datatime of the NOTAM, 100 years after startdate for permanent
-
-all:
-
-string Full NOTAM
-
-location:
-
-string ICAO code of the location the NOTAM applies to
-
-isICAO:
-
-string If the NOTAM is compliant with Doc ABC. If false, no Q-code decoding is available
-
-Created:
-
-string Dattime the NOTAM was created
-
-key:
-
-string Concatenation of ID and Location to form unique id for all NOTAMS
-
-type:
-
-string Location type, either airspace or airport
+type: <string> Location type, either airspace or airport
 
 -- End of file structure description --
 
 Format your response as a bullet point list. Each bullet point should cover one NOTAM, UNLESS there is a relationship between two or more NOTAMs, in this case summarize the related NOTAMs in one bullet point. 
-Format the response according to this template: [NOTAM Summary] ID:[NOTAM id]
-Replace [NOTAM Summary] with your summary of the NOTAM and replace [NOTAM id] with the NOTAM id or several ids for all NOTAMs your summary applies to. 
+Format the response according to this template: [NOTAM Summary] - ID:[NOTAM id]
+Replace [NOTAM Summary] with your summary of the NOTAM and replace [NOTAM id] with the NOTAM id or a comma separated list of ids for all NOTAMs your summary applies to. 
 
-If there are NO NOTAMs that apply to the asked question, only state "No applicable NOTAMs" in your response, NO OTHER explanation is needed in your response.
+Strictly stay within the context of the question. If there are NO NOTAMs that apply to the asked question, only state "No applicable NOTAMs" in your response, NO OTHER explanation is needed in your response. 
 
 Format your answer with the MARKDOWN syntax.
