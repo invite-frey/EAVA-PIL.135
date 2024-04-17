@@ -1,0 +1,232 @@
+#!/usr/local/bin/node
+
+/*
+ * Creates and runs a ChatGPT assistant designed to query NOTAMs
+ * 
+ * Usage: ./run_assistant 
+ *
+ * Copyright (c) 2024 Frey Mansikkaniemi
+ */
+
+const fs = require('fs');
+const readline = require('readline')
+const path = require('path');
+const openailib = require('openai');
+const { throws } = require('assert');
+const openai = new openailib.OpenAI()
+const dataDirPath = "../data"
+
+async function createAssistant(instructions, files) {
+    try {
+        const assistant = await openai.beta.assistants.create({
+            name: "NOTAM Interpreter",
+            instructions: instructions,
+            tools: [{ type: "retrieval" }],
+            model: "gpt-4-turbo-preview",
+            file_ids: files
+        });
+        return assistant;
+    } catch (error) {
+        console.error(`Error creating assistant: ${error.message}`);
+    }
+}
+
+async function uploadAssistantFiles(files) {
+    const fileIds = []
+
+    for (let index = 0; index < files.length; index++) {
+        const file = files[index];
+        const fileId = await openai.files.create({
+            file: fs.createReadStream(file),
+            purpose: "assistants",
+        });
+        fileIds.push(fileId.id)
+        console.log("Uploaded: " + fileId.id)
+
+    }
+    return fileIds;
+}
+
+function readFileIntoString(filePath) {
+    try {
+        const data = fs.readFileSync(filePath, 'utf8');
+        return data;
+    } catch (error) {
+        console.error(`Got an error trying to read the file: ${error.message}`);
+    }
+}
+
+function writeLineToFile(filePath, line) {
+    try {
+        fs.appendFileSync(filePath, line + '\n')
+    } catch (error) {
+        console.error(`Failed to write to the file: ${error.message}`);
+    }
+}
+
+function createFile(filePath) {
+    try {
+        fs.writeFileSync(filePath, "")
+    } catch (error) {
+        console.error(`Failed to write to the file: ${error.message}`);
+    }
+}
+
+function getNotamFileNames(directory) {
+    const fileIds = []
+
+    try {
+        const files = fs.readdirSync(directory)
+
+        files.forEach(file => {
+            if (path.extname(file) === '.json') {
+                const absolutePath = path.resolve(directory, file);
+                fileIds.push(absolutePath)
+            }
+        });
+
+        return fileIds;
+    } catch (error) {
+        console.error(`Got an error trying to read the directory: ${error.message}`);
+    }
+}
+
+async function readLinesIntoArray(filePath) {
+    const fileStream = fs.createReadStream(filePath);
+    const rl = readline.createInterface({
+        input: fileStream,
+        crlfDelay: Infinity
+    });
+
+    const lines = [];
+
+    for await (const line of rl) {
+        lines.push(line);
+    }
+
+    return lines;
+}
+
+function extractICAOIdent(inputString) {
+    // Define the regex pattern
+    const pattern = / - ([A-Z]{4})/;
+
+    // Use match() to search for the pattern in the input string
+    const matches = inputString.match(pattern);
+
+    // Check if the pattern was found
+    if (matches && matches.length > 1) {
+        // Return the part of the string that matches the pattern inside the parentheses
+        return matches[1];
+    } else {
+        // Return null if the pattern was not found
+        return "";
+    }
+}
+
+async function getQuestions() {
+    const lines = await readLinesIntoArray(`${dataDirPath}/questions.txt`)
+    return lines;
+}
+
+async function getAirports() {
+    const lines = await readLinesIntoArray(`${dataDirPath}/airport_list.txt`)
+    return lines.map(extractICAOIdent)
+}
+
+async function askQuestion(questionText, thread) {
+    const message = await openai.beta.threads.messages.create(
+        thread.id, {
+            role: "user",
+            content: questionText
+        }
+    );
+    return message;
+}
+
+async function getAnswerFromAssistant(assistant, thread) {
+    let run = await openai.beta.threads.runs.create(
+        thread.id, {
+            assistant_id: assistant.id
+        }
+    );
+
+    while (['queued', 'in_progress', 'cancelling'].includes(run.status)) {
+        await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for 1 second
+        run = await openai.beta.threads.runs.retrieve(
+            run.thread_id,
+            run.id
+        );
+    }
+
+    if (run.status === 'completed') {
+        const created_messages = await openai.beta.threads.messages.list(
+            run.thread_id
+        );
+        let messageText = null
+        for (const message of created_messages.data.reverse()) {
+            //console.log(`${message.role} > ${message.content[0].text.value}`);
+            if (message.role == 'assistant') {
+                messageText = message.content[0].text.value;
+            }
+        }
+        return messageText;
+    } else {
+        throw new Error(`Error running thread: ${run.status}`)
+    }
+}
+
+async function main() {
+    const prompt = readFileIntoString(`${dataDirPath}/prompt.txt`);
+    console.log("Found prompt")
+    const notams = getNotamFileNames(dataDirPath)
+    console.log("Found NOTAM files")
+    const uploadedFiles = await uploadAssistantFiles(notams)
+    console.log("Uploaded files to OpenAI")
+    const assistant = await createAssistant(prompt, uploadedFiles)
+    console.log("Assistant created, id: " + assistant.id)
+    const airports = await getAirports()
+    console.log("Found airports", airports)
+    const questions = await getQuestions()
+    console.log("Found questions", questions)
+    const now = new Date()
+    const outfile = dataDirPath + "/answers-run-" + now.toISOString().replaceAll(':', '').replaceAll('-', '') + ".txt"
+    createFile(outfile)
+
+    for (let index_a = 0; index_a < airports.length; index_a++) {
+        const airport = airports[index_a];
+        const thread = await openai.beta.threads.create();
+        console.log("-------------------------------------------");
+        writeLineToFile(outfile, "\n---\n")
+        console.log(`Airport: ${airport}`)
+        writeLineToFile(outfile, `#Airport: ${airport}`)
+
+        for (let index_q = 0; index_q < questions.length; index_q++) {
+            let retrycount = 0;
+
+            const question = questions[index_q];
+            //console.log("")
+            writeLineToFile(outfile, "")
+                //console.log(`Q${index+1}: ${question}`)
+            await askQuestion(question.replace('XXXX', airport), thread);
+            const answer = await getAnswerFromAssistant(assistant, thread);
+            if (answer === null && retrycount < 10) {
+                retrycount += 1;
+                index_q -= 1;
+            } else {
+                console.log(`##A${index_q+1}`)
+                    //console.log(`${answer}`)
+                writeLineToFile(outfile, `##A${index_q+1}:`)
+                writeLineToFile(outfile, `${answer}`)
+                retrycount = 0;
+            }
+
+
+        }
+
+    }
+    const response = await openai.beta.assistants.del(assistant.id);
+    console.log("Assistant deleted.")
+}
+
+main();

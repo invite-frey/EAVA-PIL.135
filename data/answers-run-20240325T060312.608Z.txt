@@ -1,0 +1,1332 @@
+
+---
+
+#Airport: EGLL
+
+##A1:
+Based on the provided NOTAMs, the critical NOTAMs affecting airport operations at EGLL are:
+
+- **Runway Restrictions due to Crane Operations**: There are no approaches to runway 27R or RWY 09L, and departures from 09L will take place when the crane is operational. This is due to a new crane obstruction in the circling area and at the airport, positioned at 513008N 0002437W with an elevation of 343FT AMSL/236FT AGL. This crane is equipped with steady red lighting【21†source】【25†source】.
+- **Taxiway and Runway Lighting Unserviceabilities**: The taxiway centerline lights between the runway hold point and runway edge lights at the S4E entry/exit of RWY 09R/27L are unserviceable【29†source】. Additionally, daylight operation restrictions are applied to the S4W entry/exit of runway 09R/27L【33†source】. Work in progress affects taxiway Bravo North at the junction of Lima, with code F taxilane clearances applied due to work in progress【31†source】.
+
+No other critical NOTAMs affecting airport operations at EGLL were identified in the provided files.
+
+##A2:
+After reviewing the NOTAMs, there are no reported issues specifically related to Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), or GPS RAIM anomalies at airport EGLL in the available documents. All identified NOTAMs involve other aspects such as obstacles, taxiway and runway restrictions, but none directly mention ILS, other NAVAIDs unserviceability, or GPS RAIM anomalies.
+
+##A3:
+Based on the provided NOTAMs for airport EGLL, relevant information regarding the availability of runways and conditions affecting runway usability includes:
+
+1. **Obstruction Impact on Runway Operations**: No approaches to runway 27R or RWY 09L, and departures from 09L will occur only when a crane is operational. This is due to the presence of a crane within the circling area and at the airport, at a location detailed as 513008N 0002437W, with an elevation of 343FT AMSL/236FT AGL and equipped with steady red lighting【21†source】 .
+2. **Runway Entry/Exit Restrictions**: Runway 09R/27L entry/exit at S4W is restricted to daylight operations only .
+3. **Taxiway Centerline Lighting Unserviceability Affecting Runway Access**: The taxiway centerline lights between the runway hold point and runway edge lights at the S4E entry/exit of RWY 09R/27L are unserviceable .
+
+No specific NOTAMs were found directly mentioning runway closures or maintenance work explicitly aimed at the runways themselves, nor were there any NOTAMs related to runway conditions affected by snow, ice, or debris in the provided files. The listed NOTAMs prioritize obstructions and lighting issues impacting runway operations.
+
+##A4:
+After reviewing the NOTAMs provided for airport EGLL, there are no specific NOTAMs reporting safety hazards such as bird activity, drones, or other aerial hazards within the airport premises or its immediate airspace in the available documents. The available NOTAMs focus primarily on operational restrictions, such as those related to runways and obstacles, without mentioning safety hazards related to wildlife or unauthorized aerial devices.
+
+---
+
+#Airport: EDDF
+
+##A1:
+The critical NOTAMs affecting airport operations at EDDF are as follows:
+
+- Frankfurt DVORTAC FFM 114.20/CH89X DVOR part not usable in sector 170DEG to 180DEG clockwise with various altitude limitations depending on distance .
+- Aircraft stands S401 and S403 closed【23†source】.
+- New taxi restriction for A380: Taxiway S23 between Taxiway S and Taxiway R not available【27†source】.
+
+##A2:
+Based on the reviewed NOTAMs for EDDF, the reported issue related to Navigational Aids (NAVAIDs) is as follows:
+
+- Frankfurt DVORTAC FFM 114.20/CH89X DVOR part is not usable in sector 170DEG to 180DEG clockwise with various altitude limitations depending on distance .
+
+There were no reported issues regarding Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, NDB) beyond the DVORTAC mentioned above, or GPS RAIM anomalies specifically mentioned for EDDF within the provided NOTAMs.
+
+##A3:
+No applicable NOTAMs
+
+##A4:
+No applicable NOTAMs
+
+---
+
+#Airport: LFPG
+
+##A1:
+Based on the NOTAMs provided for LFPG (Charles de Gaulle Airport, Paris), there are several critical NOTAMs affecting airport operations:
+
+- Aircraft parking stand closures at stands X06, X07, X08, Y01, Y02, Y03 from January 14th, 2024 to April 28th, 2024. ID:A0146/24【33:0†source】.
+- Modification in the taxiway excursions hot spot map, area between MD1 and B, as a permanent change. ID:A0363/24【33:0†source】.
+- Implementing economic management of the climb 'OPTICLIMB' or equivalent, with a minimum indicated airspeed of 235KT after NADP (Noise Abatement Departure Procedure) from December 21st, 2023 to March 20th, 2024. ID:A6721/23【33:1†source】.
+
+These NOTAMs do not strictly fall into the top 5 critical categories as per the given priority list (accidents, weather events, airport or runway closures, significant delays, or ILS serviceability issues). However, they are important for airport operations, especially regarding parking arrangements and departure procedures at LFPG.
+
+##A2:
+The reviewed NOTAMs for LFPG (Charles de Gaulle Airport, Paris) pertaining to Instrument Landing Systems (ILS), other Navigational Aids (NAVAIDs: VOR, DME, or NDB), and GPS RAIM anomalies are as follows:
+
+### Instrument Landing Systems (ILS) issues:
+
+- **ILS U/S (Unserviceable) on RWY 09R:** ILS for runway 09R is unserviceable from April 18th, 2024, 0800 UTC to April 18th, 2024, 1600 UTC. ID:A0245/24 
+
+### NAVAIDs issues:
+
+- **VOR/DME 'PG' on test, do not use:** The VOR/DME 'PG' is on test, unreliable, do not use, effective from February 1, 2024, 0600 UTC to February 1, 2024, 1500 UTC. ID:A0113/24 
+
+### GPS RAIM anomalies:
+
+No specific NOTAMs reporting GPS RAIM anomalies at LFPG were found within the provided documents.
+
+##A3:
+Based on the provided NOTAMs for LFPG (Charles de Gaulle Airport, Paris), regarding the current availability of runways and conditions affecting runway usability:
+
+- **Runway 09R/27L Closed** due to maintenance from March 11, 2024, 2200 UTC to March 12, 2024, 0400 UTC. ID:A0099/24
+
+This NOTAM indicates a temporary closure of runway 09R/27L due to maintenance activities. There were no other NOTAMs found within the provided documents that specifically mentioned conditions affecting runway usability, such as snow, ice, or debris, for any of the runways at LFPG. This closure will have a direct impact on airport operations, particularly affecting flight scheduling and potentially leading to delays during the specified maintenance period.
+
+##A4:
+The reviewed NOTAMs for LFPG (Charles de Gaulle Airport, Paris) concerning safety hazards within the airport premises or its immediate airspace reveal:
+
+- **Increased bird activity** in the vicinity of the airport. This is notable around the landing and takeoff areas and poses a general hazard to aircraft operations. ID:A1089/24
+
+There were no reported NOTAMs specifically mentioning drones or other aerial hazards in the immediate airspace around LFPG within the provided documents.
+
+The reported increased bird activity represents a safety hazard that could impact aircraft during critical phases of flight, such as takeoff and landing. Bird strikes can cause significant damage to aircraft and potentially lead to accidents. Therefore, this NOTAM should be treated with a high level of concern, and pilots should be vigilant during these flight phases when operating in and out of LFPG.
+
+---
+
+#Airport: EHAM
+
+##A1:
+Based on the provided NOTAMs affecting airport operations at EHAM, the critical NOTAMs are summarized as follows:
+
+- **Marshall Guidance Required**: Marshaller guidance is required if RVR (Runway Visual Range) is 350m or less. This could significantly impact operations, especially in low visibility conditions. ID: [A0199/24-EHAM]【33:1†europe_major.json】
+- **Missed Approach Procedure Changes Due to Cranes**: Changes to the missed approach procedure are instructed due to cranes left of the final approach. This may affect the departure and arrival flow, indicating no turn is allowed before 1.2NM prior threshold runway 22. ID: [A0235/24-EHAM]【33:1†europe_major.json】
+- **ILS CAT I Availability**: Information on the availability of ILS CAT I (Instrument Landing System Category I). This impacts the approach procedure under specific weather conditions. ID: [A0683/24-EHAM]【33:2†europe_major.json】
+- **Operating Minima Change Due to Crane**: The operating minima OCA(OCH) for RWY 24 have been changed due to a crane, affecting the landing and take-off minima for different aircraft categories. This could lead to changes in approach strategies or even diversions. ID: [A0684/24-EHAM]【33:2†europe_major.json】
+
+These NOTAMs cover aspects related to marshalling arrangements (priority level 12) and changes in air traffic procedures due to obstacles (priority level 11), and ILS serviceability (priority level 5). While none directly indicate a level 1-4 priority situation (such as airport or runway closures, significant delays, or accidents/weather events directly affecting airport operations), the changes in missed approach procedures and operating minima due to cranes pose significant attention for flight safety and operational planning.
+
+##A2:
+After reviewing the NOTAMs for airport EHAM, the issues related to Instrument Landing Systems (ILS), other Navigational Aids (NAVAIDs) such as VOR, DME, or NDB, and GPS RAIM anomalies are summarized below:
+
+- **Instrument Landing System (ILS) Availability**:
+  - ILS CAT I for RWY 18C not available due to maintenance. Alternate ILS procedures may be required during this period. ID: [A0683/24-EHAM] .
+
+There were no specific NOTAMs reported for issues with other NAVAIDs (VOR, DME, or NDB) or GPS RAIM anomalies at EHAM within the provided set of NOTAMs.
+
+##A3:
+After analyzing the NOTAMs for airport EHAM regarding the availability of runways and conditions affecting runway usability, the relevant NOTAMs are summarized as follows:
+
+1. **Runway Closure for Maintenance**:
+   - RWY 04/22 is closed for maintenance work. This closure directly impacts the availability of this runway for landing and takeoff operations. ID: [A0485/24-EHAM]
+   - RWY 18C/36C is closed for maintenance work. Similar to the closure of RWY 04/22, this affects operational capacity by limiting the available runways. ID: [A0486/24-EHAM]
+
+2. **Runway Usability Conditions**:
+   - There are no specific NOTAMs in the provided documents related to conditions such as snow, ice, or debris that directly affect runway usability at EHAM.
+
+Runway closures due to maintenance are critical for operational planning as they directly affect the airport's capacity to handle flights, requiring adjustments in flight scheduling and runway utilization. The absence of NOTAMs related to adverse runway conditions like snow, ice, or debris means there are no additional environmental impediments to runway usability reported, outside of the aforementioned maintenance closures.
+
+##A4:
+After reviewing the NOTAMs for airport EHAM, the notable safety hazards within the airport premises or its immediate airspace are as follows:
+
+1. **Increased Bird Activity**: There is an increased activity of birds within the vicinity of the airport, particularly affecting runway 09/27. Bird strikes can pose significant safety risks to both departing and arriving aircraft due to the potential for engine ingestion or airframe damage. ID: [A0148/24-EHAM]
+2. **Crane Positioned Close to Final Approach Path**: A crane is positioned close to the final approach path for runway 22. While not an aerial hazard like drones or birds, this still presents a significant safety concern, particularly for landing phases under low visibility conditions or if an aircraft is required to conduct a go-around. No turns before 1.2NM prior to the threshold. ID: [A0235/24-EHAM]
+
+These NOTAMs are ranked based on the immediate risk they pose to aircraft operations, with bird activity being prevalent and potentially affecting multiple flights, followed by the presence of a crane which is a fixed hazard but requires specific navigational adjustments for flights landing on runway 22.
+
+---
+
+#Airport: LEMD
+
+##A1:
+Based on the identified NOTAMs pertaining to airport operations at LEMD, the following critical NOTAMs have been identified:
+
+- Resurfacing and lighting works on Taxiway B12 (TWY B12) will be taking place as described in AIP SUP AIRAC 37/24 effective from 18 April 2024 to 18 April 2025. ID:A1738/24【19:0†source】.
+
+- Phase 1 activity reference SUP 196/23 is currently active, affecting operations. ID:A1577/24【19:0†source】.
+
+- Taxiways T4, T5, T6, A6, EC2, EC3, and EC8, N11 are closed as referenced in AIRAC SUP 168/23. ID:A1991/24【19:1†source】.
+
+- Grass cutting works are in progress around Runway 18L/36R, with personnel and machinery present both sides of the runway at a distance greater than 77.5m from the Runway Center Line (RCL). This activity is scheduled between 19 March 2024, 0700 to 20 March 2024, 1400. ID:A1975/24【19:1†source】.
+
+- There is an upcoming project for the execution of a pipe bank on Runway 14R/32L as described in AIP SUP AIRAC 46/24 effective from 18 April 2024 to 18 April 2025. ID:A1742/24【19:2†source】.
+
+These NOTAMs involve runway and taxiway closures, work in progress that directly affects the maneuvering area, and scheduled maintenance activities that can impact airport operations, making them critical for planning and conducting flights to or from LEMD during the specified periods.
+
+##A2:
+After reviewing the NOTAMs relevant to Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies for airport LEMD, the following issues have been identified:
+
+- **Instrument Landing System (ILS) Issues**:
+  - The ILS for runway 18L is unserviceable from March 29, 2024, 0630 LT to April 20, 2024, 1730 LT. ID:A1966/24 .
+
+- **Other NAVAIDs Issues (VOR, DME, or NDB)**:
+  - The VOR/DME named BARAHONA (VBA) at LEMD is unserviceable from March 28, 2024, 0700 LT to April 18, 2024, 1500 LT. ID:A1892/24 .
+
+- **GPS RAIM Anomalies**:
+  - No specific NOTAMs related to GPS RAIM anomalies at LEMD were found.
+
+These NOTAMs highlight the temporary unavailability of critical navigation aids such as an ILS for a specific runway and a VOR/DME at LEMD, impacting approaches, departures, and in-flight navigation within the vicinity during the specified periods.
+
+##A3:
+After analyzing the NOTAMs for airport LEMD, the following issues related to runway availability, closures, maintenance work, or conditions affecting runway usability have been identified and prioritized based on their impact on airport operations:
+
+1. **Runway Closures and Maintenance Work**:
+   - Grass cutting work is being performed in the vicinity of Runway 18L/36R, with personnel and machinery present on both sides of the runway, at a distance greater than 77.5m from the Runway Center Line (RCL). This work is scheduled from 19 March 2024, 0700 to 20 March 2024, 1400. ID:A1975/24.
+   - There's an upcoming project for the execution of a pipe bank on Runway 14R/32L, as specified in the AIP SUP AIRAC 46/24 effective from 18 April 2024 to 18 April 2025. ID:A1742/24.
+
+2. **Conditions Affecting Runway Usability**:
+   - No specific NOTAMs related to conditions such as snow, ice, or debris affecting runway usability at LEMD were identified within the provided files.
+
+These NOTAMs prioritize information regarding ongoing and upcoming runway maintenance, which could potentially affect the maneuvering and operational availability. Notably, there are operations like grass cutting around a runway that are scheduled for a short period, and larger scale works like the execution of a pipe bank on another runway, likely causing more prolonged impact on airport operations.
+
+##A4:
+After reviewing the provided NOTAMs for airport LEMD, the following issues related to safety hazards within the airport premises or its immediate airspace have been identified:
+
+1. **Bird Activity**:
+   - There is increased seagull activity reported in the vicinity of LEMD, posing a significant risk of bird strikes. This activity is especially noteworthy due to the flock sizes and the associated increased risk to flight operations. ID:A1793/24.
+
+2. **Drones or Other Aerial Hazards**:
+   - No specific NOTAMs related to drones or other aerial hazards apart from bird activity at LEMD were found in the provided documents.
+
+The reported increased seagull activity represents a notable safety hazard, due to the potential for bird strikes which can cause serious incidents, especially during critical phases of flight such as takeoff and landing. Given the lack of reported drones or other aerial hazards, bird activity stands as the primary safety hazard based on the provided NOTAMs.
+
+---
+
+#Airport: LTFM
+
+
+
+##A1:
+No applicable NOTAMs
+
+##A2:
+No applicable NOTAMs
+
+##A3:
+No applicable NOTAMs
+
+##A4:
+No applicable NOTAMs
+
+---
+
+#Airport: LSZH
+
+##A1:
+Based on the provided NOTAMs, the following critical NOTAMs affecting airport operations at LSZH have been identified:
+
+1. RWY 10/28 closure after the last scheduled flight—active from March 31, 2024, 21:00 to May 31, 2024, 04:00 on Sundays to Thursdays from 21:00 to 23:59 and Mondays to Fridays from 00:00 to 04:00. ID:[A0142/24]【19:0†europe_major.json】
+2. Stands T52-T56 closure permanently, effective from March 18, 2024, 05:00. ID:[A0134/24]【19:0†europe_major.json】
+3. Referring to NON-AIRAC AIP SUP 002/2023: Exits TWY E south of RWY 28 and TWY E6 closed due to work in progress, effective from January 3, 2024, 11:54 to March 31, 2024, 23:59. ID:[A0007/24]【19:1†europe_major.json】
+4. Referring to NON-AIRAC AIP SUP 002/2023: Code F aircraft are to cross RWY 10/28 via RWY 16/34, effective from January 3, 2024, 11:51 to March 31, 2024, 23:59. ID:[A0004/24]【19:1†europe_major.json】
+5. Another instance of RWY 10/28 closure after the last scheduled flight—active from March 17, 2024, 22:00 to March 29, 2024, 05:00 on Sundays to Thursdays from 22:00 to 23:59 and Mondays to Fridays from 00:00 to 05:00. This NOTAM overlaps partially with [A0142/24] for the duration of its effectiveness. ID:[A0140/24]【19:2†europe_major.json】
+
+These NOTAMs influence airport operations through runway closures, limitations on aircraft movement, and closure of aircraft stands. The runway closures at specific hours are of higher criticality due to their impact on flight scheduling.
+
+##A2:
+Regarding Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at LSZH, the following NOTAMs have been identified:
+
+1. ILS CAT II and III of RWY 14 is operational, but with reduced availability until May 30, 2024, 14:00 due to work in progress. Pilots are advised to plan operation with CAT I only unless CAT II/III is confirmed available by NOTAM. ID:[A0156/24] 
+2. ILS CAT II and III of RWY 16 unserviceable from April 11, 2024, 22:00 until April 12, 2024, 04:00. ID:[A0144/24] 
+3. DME 'RW' CH32X at RWY 14 out of service from March 30, 2024, 21:00 to May 31, 2024, 04:00 on Sundays to Thursdays from 21:00 to 23:59 and Mondays to Fridays from 00:00 to 04:00. ID:[A0143/24] 
+4. DME 'SW' CH32Y at RWY 16 unserviceable from April 11, 2024, 22:00 until April 12, 2024, 04:00. ID:[A0146/24] 
+
+These NOTAMs report issues with the instrumental landing systems (ILS) and Distance Measuring Equipment (DME), which are critical for navigation and landing under certain weather conditions or operational needs. There were no specific NOTAMs found related to GPS RAIM anomalies for LSZH in the provided files.
+
+##A3:
+The analysis of NOTAMs for airport LSZH concerning the availability of runways includes issues directly affecting runway usability through closures and maintenance work. The following NOTAMs have been identified, prioritized based on their impact:
+
+1. **Runway Closure for Maintenance:**
+   - RWY 10/28 is closed after the last scheduled flight, effective from March 31, 2024, 21:00 to May 31, 2024, 04:00 on Sundays to Thursdays from 21:00 to 23:59, and Mondays to Fridays from 00:00 to 04:00 due to maintenance work. ID:[A0142/24]
+   - Another instance of RWY 10/28 closure for maintenance with partially overlapping dates occurs from March 17, 2024, 22:00 to March 29, 2024, 05:00 on Sundays to Thursdays from 22:00 to 23:59, and Mondays to Fridays from 00:00 to 05:00. ID:[A0140/24]
+
+2. **DME Maintenance Affecting Runway Operations:**
+   - DME 'RW' CH32X at RWY 14 is out of service from March 30, 2024, 21:00 to May 31, 2024, 04:00 on Sundays to Thursdays from 21:00 to 23:59, and Mondays to Fridays from 00:00 to 04:00. This maintenance can affect approaches to RWY 14. ID:[A0143/24]
+   - DME 'SW' CH32Y at RWY 16 is unserviceable from April 11, 2024, 22:00 until April 12, 2024, 04:00, impacting approaches to RWY 16 during this period. ID:[A0146/24]
+
+3. **ILS Serviceability Affecting Landing Operations:**
+   - The ILS CAT II and III of RWY 14 operate with reduced availability due to work in progress until May 30, 2024, 14:00. Pilots are advised to plan operations with CAT I unless CAT II/III availability is confirmed by NOTAM. ID:[A0156/24]
+   - The ILS CAT II and III of RWY 16 is unserviceable from April 11, 2024, 22:00 until April 12, 2024, 04:00, which affects landing capabilities under certain weather conditions. ID:[A0144/24]
+
+These NOTAMs are critical as they impact the availability of runways for landing and take-off, affecting flight schedules and potentially causing operational delays. The prioritization is based on the direct impact on runway usability, with serviceability issues of navigational aids considered in correlation to how they would affect landings, especially under low visibility conditions.
+
+##A4:
+After reviewing the NOTAMs for airport LSZH, the following have been identified that report safety hazards within the airport premises or its immediate airspace. They include issues like bird activity or other sources of aerial hazards, ranked by the level of threat they pose to aircraft operations:
+
+1. **Increased Bird Activity:**
+   - Increased bird activity (storks) in the area of RWY 10/28, RWY 14/32, and RWY 16/34, effective from March 1, 2024, 00:00 until June 1, 2024, 23:59. This increased activity poses a significant risk to aircraft during take-off, approach, and landing phases due to the potential for bird strikes. ID:[A0145/24]
+
+2. **Drone Activity:**
+   - Unauthorised drone activity reported in the vicinity of RWY 16/34, effective April 1, 2024, 00:00 until April 30, 2024, 23:59. Drones present a navigation risk and safety hazard, especially during critical phases of flight like take-off and landing. ID:[A0148/24]
+
+These NOTAMs are prioritized based on their potential to directly impact aircraft operations and safety. The presence of birds is considered an ongoing concern over a more extended period, affecting all runways and thereby potentially impacting more flights. On the other hand, unauthorised drone activity, while hazardous, is more limited in time scope and specifically affects the vicinity of one set of runways.
+
+---
+
+#Airport: EDDM
+
+##A1:
+Based on the NOTAMs provided for EDDM, the following are the critical NOTAMs affecting airport operations:
+
+- **Changes to frequency for Munich Tower:** North frequency changed to 355.550 and South frequency deleted 278.550. ID:[U0045/11]
+- **Tempo suspension of NDB Approach Procedure RWY 26L due to maintenance of MSW NDB.** This procedure will not be available on 20th March 2024 from 08:00 to 14:00 UTC. ID:[A1314/24]
+- **For all IFR approach and departures, a minimum sector altitude (MSA) based on EDDM ARP, radius 25NM, is 4000ft MSL due to maintenance of MNW NDB.** This is applicable on 19th March 2024 from 08:00 to 14:00 UTC. ID:[A1313/24]
+- **NDB Approach Procedure to RWY 26R suspended temporarily due to maintenance of MNW NDB.** This change affects approaches on 19th March 2024 from 08:00 to 14:00 UTC. ID:[A1312/24]
+
+##A2:
+Based on the NOTAMs provided for EDDM, the reported issues affecting NAVAIDs are as follows:
+
+**NAVAIDs:**
+- **Temporary suspension of NDB Approach Procedure RWY 26L due to maintenance of MSW NDB.** This will occur on 20th March 2024 from 08:00 to 14:00 UTC. ID:[A1314/24]
+- **Due to maintenance of MNW NDB, a Minimum Sector Altitude (MSA) based on EDDM ARP, radius 25NM, of 4000ft MSL must be used for all IFR approaches and departures.** This is applicable on 19th March 2024 from 08:00 to 14:00 UTC. ID:[A1313/24]
+- **NDB Approach Procedure to RWY 26R temporarily suspended due to maintenance of MNW NDB.** This change is effective on 19th March 2024 from 08:00 to 14:00 UTC. ID:[A1312/24]
+
+**Instrument Landing System (ILS), GPS RAIM anomalies:** 
+No applicable NOTAMs
+
+##A3:
+No applicable NOTAMs
+
+##A4:
+No applicable NOTAMs
+
+---
+
+#Airport: LIRF
+
+##A1:
+Based on the NOTAMs provided, the critical NOTAMs affecting airport operations at LIRF are:
+
+- Aircraft stand 501 is closed due to work in progress, with ICAO night and day signals provided. ID:A0042/24【19:0†source】.
+- Taxiway 'A' is closed between taxiway 'H' and taxiway 'W', excluding both, daily from 22:00 to 05:00. ID:A2006/24【19:2†source】.
+
+These NOTAMs are significant for aircraft parking and taxiing arrangements at LIRF.
+
+##A2:
+The issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at airport LIRF, based on the provided NOTAMs, are:
+
+- The ILS on runway 16L is unreliable beyond 8 degrees right of the course. ID:A0039/24 .
+
+No reported issues with other NAVAIDs (VOR, DME, or NDB) and GPS RAIM anomalies at LIRF within the provided NOTAMs.
+
+##A3:
+Based on the provided NOTAMs for airport LIRF, the current availability of runways and conditions affecting runway usability are as follows, prioritized by impact on airport operations:
+
+1. Runway 16L/34R is closed due to maintenance work, affecting its availability. ID:A0333/24 .
+2. The threshold of runway 07 is displaced by 1980 meters and the available length is reduced to 2410 meters. ID:A0334/24 .
+3. Runway 16R/34L threshold is displaced with a reduced length available due to maintenance work. ID:A0335/24 .
+4. Runway 25 threshold is displaced, resulting in a reduced available length due to maintenance. ID:A0336/24 .
+
+These NOTAMs indicate significant impacts on the availability and usability of runways at LIRF due to maintenance work and operational adjustments.
+
+##A4:
+The NOTAMs at airport LIRF reporting safety hazards within the airport premises or its immediate airspace are:
+
+1. High bird concentration around the airport poses a significant threat to aircraft operations. ID:A0420/24 .
+2. Aerial work by drones within an area described in the NOTAM, affecting the safety of flight operations. ID:A0702/24 .
+
+These NOTAMs are ranked by the level of threat they pose to aircraft operations, with high bird concentration being a continuous hazard, and drone activity representing a specific but controlled risk.
+
+---
+
+#Airport: EIDW
+
+##A1:
+For EIDW, there are several critical NOTAMs identified affecting airport operations:
+
+- **Instrument Approach Procedures Not Available on Charts** for VOR RWY 28L and RWY 10R. This NOTAM might affect air traffic procedures significantly as pilots rely on instrument approach procedures, especially during poor weather or low visibility conditions. ID:[A0391/24]【19:0†source】.
+
+- **Automatic Terminal Information Service (ATIS) for Dublin Information Departure Frequency Unserviceable**. The unavailability of ATIS on the specified frequency could lead to pilots missing key operation and safety information on departure. ID:[B0011/24]【19:1†source】.
+
+- **ILS Glide Path for RWY 16 Has a Radio Decision Height (RDH) of 50 Feet**. This is critical information for pilots performing an Instrument Landing System (ILS) approach on RWY 16, affecting the safety and operation of landing procedures. ID:[B1124/23]【19:1†source】.
+
+- **RWY 10L Straight-In Approach ILS CAT II Instrument Approach Minima Not Available**. This NOTAM is significant as it affects the minimum operational criteria required for CAT II approaches, potentially limiting the ability of aircraft to land in lower visibility conditions than normally permitted. ID:[A0581/24]【19:2†source】.
+
+These NOTAMs are prioritized based on their impact on safety and efficiency of airport operations, with particular attention to instrument approach availability and information services essential for flight operations.
+
+##A2:
+For EIDW, the following NOTAMs report issues with Instrument Landing Systems (ILS), other NAVAIDs, and GPS RAIM anomalies:
+
+- **ILS CAT IIIb Unserviceable on RWY 28L**. This NOTAM directly affects operations under CAT IIIb minima, particularly impacting flights during adverse weather conditions requiring such precision approaches. ID:[A1189/24] .
+
+- **DME associated with ILS 'ID-S' RWY 28 Unserviceable**. The unserviceable DME can affect distance measurements crucial for precision approaches on RWY 28, potentially impacting approach procedures. ID:[A0478/24] .
+
+These NOTAMs indicate significant operational concerns related to precision landing aids at EIDW, impacting the capability to execute certain approach procedures under specific weather conditions or operational scenarios.
+
+##A3:
+For EIDW, the relevant NOTAMs concerning the availability and conditions of runways include:
+
+- **Runway 10R/28L Closed for Maintenance**. This closure directly affects operational capacity by reducing the number of runways available for takeoffs and landings, potentially leading to increased delays or the need for operational adjustments. ID:[A0789/24].
+
+- **Runway 10L/28R Reduced Width due to Work in Progress**. While not a full closure, the reduced width may affect operations by imposing limitations on the types of aircraft that can use the runway or potentially impacting the safety margins during takeoff and landing operations. ID:[A0854/24].
+
+These NOTAMs specifically impact the usability and operational capacity of runways at EIDW, with complete closures being the most critical due to their direct impact on the airport's ability to accommodate flight operations.
+
+##A4:
+For EIDW, the following NOTAMs report safety hazards within the airport premises or its immediate airspace:
+
+- **Increased Bird Activity in the Vicinity of the Airport**. This poses a threat to aircraft, especially during takeoff and landing phases, due to the risk of bird strikes, which can damage aircraft and affect safety. ID:[A0456/24].
+
+Bird activity is a known hazard for aviation, posing risks of bird strikes that can lead to significant aircraft damage or accidents, particularly during critical phases of flight like takeoff and landing. This NOTAM is prioritized based on the potential safety threat posed to aircraft operations at EIDW. There are no reported NOTAMs regarding drones or other aerial hazards in the provided information.
+
+---
+
+#Airport: EGKK
+
+##A1:
+Based on the NOTAMs provided for EGKK (Gatwick Airport), the critical NOTAMs affecting airport operations are:
+
+- Taxiway Juliet closed in front of Stands 18 and 20 due to work in progress from 18th March 2024, 19:00 until 22nd March 2024, 12:00. ID:[A1944/24]【45:1†source】.
+- Adoption of a new Rapid Exit Taxiway Echo Romeo for Runway 26L, available from 21st February 2024, 05:00 until 21st March 2024, 23:59. This NOTAM marks a permanent update to the taxiway system. ID:[A1331/24]【45:1†source】.
+- Temporary closure of Taxiway Tango is canceled and the taxiway opens from 12th March 2024, 09:00. This NOTAM is related to a previous temporary closure NOTAM now being rescinded. ID:[A1837/24]【45:2†source】.
+- A firework display within a 0.5NM radius of Crawley Down, close to the airport, from 18th May 2024, 19:45 until 18th May 2024, 20:25. This is a navigation warning indicating potential distractions or visual disruptions. ID:[H0899/24]【45:0†source】【45:2†source】.
+
+These NOTAMs encompass temporary restrictions, the introduction of new airport infrastructure, and navigation warnings that could affect normal airport operations and require adjustments by pilots and ground operations teams.
+
+##A2:
+Based on the NOTAMs provided for EGKK (Gatwick Airport), the reported issues with NAVAIDs and GPS RAIM anomalies are:
+
+- **ILS**: There are no reported issues with the Instrument Landing System (ILS) at EGKK in the provided NOTAMs.
+- **Other NAVAIDs**: There are no reported issues with other NAVAIDs (VOR, DME, or NDB) at EGKK in the provided NOTAMs.
+- **GPS RAIM Anomalies**: There are no reported GPS RAIM anomalies at EGKK in the provided NOTAMs.
+
+No applicable NOTAMs related to the issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), or GPS RAIM anomalies at EGKK were identified in the provided files.
+
+##A3:
+Based on the NOTAMs provided for EGKK (Gatwick Airport), related to the current availability of runways, the relevant NOTAMs are:
+
+- **Runway Availability**:
+    - There are no NOTAMs explicitly stating a full runway closure at EGKK in the provided data.
+    - There is a NOTAM regarding the adoption of a new Rapid Exit Taxiway Echo Romeo for Runway 26L, aiming to enhance the runway operation efficiency. While not directly a runway closure, the construction of new taxiways can impact the operational flow around the runway. This NOTAM is active from 21st February 2024, 05:00 until 21st March 2024, 23:59. ID:[A1331/24] .
+
+- **Maintenance Work**:
+    - Taxiway Juliet, while not a runway, is noted to be closed in front of Stands 18 and 20 due to work in progress. This could indirectly affect runway usability by limiting taxiway availability for arriving or departing aircraft. This work is scheduled from 18th March 2024, 19:00 until 22nd March 2024, 12:00. ID:[A1944/24] .
+
+- **Conditions Affecting Runway Usability**: 
+    - There are no NOTAMs reporting conditions like snow, ice, or debris that are directly affecting runway usability at EGKK in the provided data.
+
+The prioritization of these NOTAMs would place the introduction of a new Rapid Exit Taxiway (ID: A1331/24) at the top due to its potential impact on the operational efficiency and flow around Runway 26L, followed by maintenance work on a taxiway (ID: A1944/24) as it could indirectly affect runway operations by limiting taxiways available for aircraft movement.
+
+##A4:
+Based on the NOTAMs provided for EGKK (Gatwick Airport), related to safety hazards within the airport premises or its immediate airspace, the relevant NOTAMs are:
+
+- A firework display within a 0.5NM radius of Crawley Down, close to the airport, from 18th May 2024, 19:45 until 18th May 2024, 20:25. This is a navigation warning indicating potential distractions or visual disruptions which could pose a safety hazard due to the proximity to the airport. This event is time-limited but poses a significant hazard during its active period due to the risk of distraction or visual impairment. ID:[H0899/24] .
+
+There are no other NOTAMs reporting on other safety hazards like bird activity, drones, or alternative aerial hazards at EGKK in the provided data.
+
+Given the information available, the firework display (ID: H0899/24) is the most notable safety hazard reported in the NOTAMs due to the risk it poses to aircraft operations by potentially distracting pilots or impairing visibility during a critical phase of flight. There are no reported incidents of bird strikes or drone activity in the provided NOTAMs to compare against.
+
+---
+
+#Airport: LSGG
+
+
+
+
+
+##A1:
+No applicable NOTAMs
+
+##A2:
+No applicable NOTAMs
+
+##A3:
+No applicable NOTAMs
+
+##A4:
+No applicable NOTAMs
+
+---
+
+#Airport: LIML
+
+##A1:
+Based on the NOTAMs provided, the critical NOTAMs affecting airport operations at LIML are:
+
+- **Runway 17/35, HEL/FATO, and all taxiways closed to all traffic daily from 2230 to 0430.** ID: A1953/24【19:0†source】
+- **SARONNO NDB 'SRN' frequency 330.00kHz unserviceable.** ID: A1270/24【19:1†source】
+- **Airforce apron available for aircraft with a maximum wingspan of 41M/134FT only. Pre-authorization required 48hr in advance to use apron. During night hours, taxi operations with caution due to apron edge lights not available.** ID: M1257/24【19:2†source】
+
+##A2:
+The reported issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at airport LIML are as follows:
+
+- **ILS issues:**
+    - No applicable NOTAMs
+
+- **Other NAVAIDs issues:**
+    - **SARONNO NDB 'SRN' frequency 330.00kHz unserviceable.** ID: A1270/24
+
+- **GPS RAIM anomalies:**
+    - No applicable NOTAMs
+
+##A3:
+The related NOTAMs regarding runway availability, including closures, maintenance work, or conditions affecting runway usability at LIML airport, are:
+
+1. **Runway 17/35, HEL/FATO, and all taxiways closed to all traffic daily from 2230 to 0430.** ID: A1953/24 
+
+##A4:
+There are no applicable NOTAMs regarding safety hazards such as bird activity, drones, or other aerial hazards within the airport premises or its immediate airspace at LIML.
+
+---
+
+#Airport: ELLX
+
+##A1:
+Based on the provided NOTAMs affecting airport operations at ELLX, the critical ones are summarized as follows:
+
+- Crane erected northeast of the terminal with a radius of 40 meters, max altitude 1414ft AMSL, max height 168ft AGL, and obstacle limitation surface penetration of 16m/52ft. Lights red at night until March 31, 2024. ID:A0260/24【19:0†europe_others.json】
+  
+- Taxiway H closed due to work in progress from March 13, 2024, until April 08, 2024. ID:A0710/24【19:0†europe_others.json】
+
+##A2:
+After reviewing the provided NOTAMs concerning ELLX, the following issues related to Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, NDB), and GPS RAIM anomalies have been identified:
+
+- ILS Y RWY 06 unserviceable. ID:A0288/24 
+
+- ILS Z RWY 24 unserviceable. ID:A0289/24 
+
+- ILS Y RWY 24 unserviceable. ID:A0290/24 
+
+- VOR/DME ELU unserviceable. ID:A0485/24 
+
+##A3:
+After analyzing the NOTAMs related to ELLX, the current availability of runways and conditions affecting runway usability are summarized as follows, prioritized by their impact on airport operations:
+
+- **Runway Closure and Maintenance Work:**
+  - RWY 06/24 closed due to maintenance work from April 03, 2024, 2300Z until April 04, 2024, 0400Z. ID:A0711/24 
+
+- **Runway Conditions:**
+  - No NOTAMs directly mentioning conditions affecting usability due to snow, ice, or debris found in the provided files.
+  
+This summary provides insights into the operational status of runways at ELLX, focusing on closures and maintenance activities as per the available NOTAMs.
+
+##A4:
+After reviewing the available NOTAMs for ELLX, the following relate to safety hazards within the airport premises or its immediate airspace:
+
+- Increased bird activity reported in the vicinity of ELLX. ID:A0700/24 
+
+This NOTAM highlights a safety hazard that could potentially impact aircraft operations due to the risk of bird strikes. Bird activity is an important safety consideration, especially during takeoff and landing phases. However, there are no other specific NOTAMs mentioning drones or other aerial hazards in the provided files. The reported bird activity stands out as a primary concern within the context of the available information.
+
+---
+
+#Airport: LFML
+
+##A1:
+- PAPI 13L permanently in use at LFML, establishes visual glide slope indicators for runway 13L. ID:A0560/24【19:0†source】.
+- RWY 31L RNP H procedure is prohibited, affecting certain instrument approach procedures until April 5, 2024. ID:A0272/24【19:0†source】.
+- RDH for RWY 31R FNA ILS Z LOC Z modified to 58FT, affecting instrument landing system guidance. This change is permanent. ID:A1141/24【19:1†source】.
+- Taxiways E2, E3, E9, and F3 are closed from March 20, 2024, 06:30 until March 21, 2024, 16:00. ID:A1121/24【19:2†source】.
+
+The critical NOTAMs for LFML, considering the prioritization criteria, involve instrument approach procedure restrictions, ILS guidance modification, and taxiway closures. These NOTAMs have either permanent or temporary timescales. The NOTAM affecting the most critical aspects of airport operations would be the temporary closure of multiple taxiways, impacting ground movement.
+
+##A2:
+- PAPI 13L permanently in use at LFML, visual guidance for approaches. ID:A0560/24 .
+- RWY 31L RNP H procedure is prohibited, affecting instrument approach procedures until April 5, 2024. ID:A0272/24 .
+- RDH for RWY 31R FNA ILS Z LOC Z modified to 58FT, affecting instrument landing system guidance. This notice is permanent. ID:A1141/24 .
+
+ILS issue at LFML includes the modification of RDH for RWY 31R FNA ILS Z LOC Z to 58FT, impacting instrument landing system guidance. There are no listed NAVAID (VOR, DME, NDB) unserviceability or GPS RAIM anomalies specified for LFML in the provided NOTAMs.
+
+##A3:
+- Taxiways E2, E3, E9, and F3 are closed from March 20, 2024, 06:30 until March 21, 2024, 16:00. ID:A1121/24 .
+
+Regarding the availability of runways at LFML, the provided NOTAMs do not specify any runway closures, maintenance work directly on runways, or conditions affecting runway usability such as snow, ice, or debris. The closest related NOTAM is the temporary closure of several taxiways, which may impact access to runways but does not directly affect runway usability.
+
+##A4:
+No applicable NOTAMs
+
+---
+
+#Airport: LFMN
+
+##A1:
+Based on the NOTAMs provided, the critical NOTAMs affecting airport operations at LFMN are as follows:
+
+- ILS for RWY 04L is unserviceable on 19th March 0700 to 20th March 1600. ID:A1210/24【19:0†source】.
+- Taxiway A3 is closed from 18th March 0909 to 30th June 1600. ID:A1203/24【19:0†source】.
+- ILS for RWY 04R is unserviceable due to maintenance, do not use, possible false indication on 21st March 1000 to 1200. ID:A1153/24【19:1†source】.
+- Taxiway S is reserved for aircraft whose wingspan is smaller than 36M between Taxiway C and Taxiway D excluded from 13th March 0600 to 29th March 1700. ID:A1098/24【19:1†source】.
+- Modifications to Rescue and Fire Fighting Services described, including equipment and vehicle details, effective from 6th Feb 1604 to 6th May 1700. ID:A0546/24【19:2†source】.
+
+These NOTAMs include runway and taxiway limitations and infrastructure serviceability, which are critical for pilots and airport operations staff to be aware of.
+
+##A2:
+Based on the NOTAMs provided, the reported issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at airport LFMN are as follows:
+
+- ILS for RWY 04L is unserviceable on 19th March 0700 to 20th March 1600. ID:A1210/24 .
+- ILS for RWY 04R is unserviceable due to maintenance, do not use, possible false indication on 21st March 1000 to 1200. ID:A1153/24 .
+
+No other NAVAIDs (VOR, DME, or NDB) or GPS RAIM anomalies issues were reported in the NOTAMs for LFMN.
+
+##A3:
+Based on the analysis of the NOTAMs provided for LFMN, there are NO NOTAMs directly related to runway closures, maintenance work, or conditions affecting runway usability (like snow, ice, or debris). The critical NOTAMs affecting LFMN were focused on ILS unserviceability and taxiway closures or restrictions, but none mentioned current runway availability issues directly.
+
+##A4:
+Based on the NOTAMs provided for LFMN, there are NO NOTAMs that report safety hazards within the airport premises or its immediate airspace, such as bird activity, drones, or other aerial hazards. The analyzed NOTAMs focus on serviceability of navigational aids, taxiway restrictions, and firefighting services, without any mention of hazards like bird activity or drones.
+
+---
+
+#Airport: LPPR
+
+##A1:
+Based on the NOTAMs provided for LPPR (Francisco Sá Carneiro Airport), the following critical operations affecting NOTAMs have been identified:
+
+- Work in Progress (WIP) on pavement of Taxiways S1, S2, B, C, and Y, with men and equipment under tower and airport authority supervision. ID: A0888/24【19:0†source】.
+- Work in Progress (WIP) outside the east strip of Taxiway E2. ID: A0658/24【19:0†source】.
+
+These NOTAMs are categorized under "Work in Progress," which affects taxiways at the airport and can impact airport operations, including potential delays or rerouting of ground traffic.
+
+##A2:
+After reviewing the NOTAMs for LPPR (Francisco Sá Carneiro Airport), the following issues related to Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies were found:
+
+- The DME associated with the ILS CAT III on runway 17 (ID L) is out of service. ID: A0275/23 .
+- The VHF Omnidirectional Range (VOR) "Porto" (PRT) is unreliable. ID: A0438/23 .
+
+No specific GPS RAIM anomalies are reported among the provided NOTAMs for LPPR.
+
+##A3:
+After reviewing the NOTAMs for LPPR (Francisco Sá Carneiro Airport), there are no reports of runway closures nor are there any NOTAMs directly mentioning maintenance work, or conditions affecting runway usability, such as snow, ice, or debris. Therefore, based on the provided NOTAMs, there doesn't seem to be any direct impact on the runways at LPPR that would affect their availability or usability from the details given.
+
+##A4:
+After a comprehensive review of the NOTAMs for LPPR (Francisco Sá Carneiro Airport), the following safety hazards within the airport premises or its immediate airspace were identified:
+
+- High bird activity, especially pigeons and seagulls, observed in the vicinity of the airport. This poses a significant threat to aircraft operations due to the risk of bird strikes. ID: A0936/24.
+
+This NOTAM is critical for aircraft operations as bird strikes can cause severe damage to aircraft and potentially lead to accidents. It is prioritized accordingly due to the level of threat it poses to safety.
+
+---
+
+#Airport: EGPH
+
+##A1:
+Based on the NOTAMs provided, the critical NOTAMs affecting airport operations at EGPH are:
+
+- **Obstacle Notice - Crane Operation**: A crane operating near EGPH. Maximum height 105FT AGL 301FT AMSL. The crane will be lowered during LVP (Low Visibility Procedures). ID:[A1898/24]【17:19†source】.
+
+- **Taxiway Alpha Steel Plate**: A steel plate on Taxiway Alpha at the A9 hold bar and at the entrance to Taxiway Foxtrot. ID:[A1832/24, A1932/24]【17:19†source】.
+
+- **SID Change for Jet Aircraft**: Standard Instrument Departure TALLA procedure availability amended for jet aircraft. ID:[A1985/24]【17:19†source】.
+
+These NOTAMs include an obstacle impacting the airport's vicinity and navigational changes on the ground and for departures that could significantly affect flight operations.
+
+##A2:
+Based on the NOTAMs provided for EGPH, the following issues have been reported related to Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies:
+
+- **ILS Category I or II RVR Requirement**: Increased RVR requirement for ILS Category I or II approaches on Runway 24 due to ground equipment blocking the glideslope. ID:[A1800/24] .
+
+- **DME 'IPI' Unserviceable**: The DME part of the ILS/DME for Runway 24, identified as 'IPI,' is unserviceable. ID:[A1801/24] .
+
+There are no reported GPS RAIM anomalies for EGPH in the provided NOTAMs.
+
+##A3:
+Based on the NOTAMs provided for EGPH, the current availability of runways and conditions affecting runway usability are as follows:
+
+1. **Runway 12/30 Closed for Maintenance**: Runway 12/30 is closed for maintenance at specific times, impacting its availability for operation. ID:[A2165/24] .
+
+2. **Runway Surface Conditions**: Information on the condition of the runway surface, particularly concerning snow, ice, or debris, isn't explicitly detailed in the NOTAMs provided for EGPH.
+
+The prioritization is based on the impact on operations, with runway closures being of the highest priority owing to its direct effect on the ability to conduct landings and takeoffs. However, there was no specific NOTAM provided regarding conditions like snow, ice, or debris affecting runway usability within the tagged documents for EGPH.
+
+##A4:
+Based on the NOTAMs provided for EGPH, the noted safety hazards within the airport premises or its immediate airspace include:
+
+1. **Increased Bird Activity**: Reports of increased bird activity in and around the vicinity of EGPH pose a potential hazard to aircraft, especially during take-off and landing phases. ID:[A1842/24] .
+
+2. **Crane Operation Near EGPH**: A crane operating near EGPH with a maximum height of 105FT AGL and 301FT AMSL, posed a hazard but will be lowered during Low Visibility Procedures (LVP). ID:[A1898/24] .
+
+The prioritization of these NOTAMs is based on their immediate threat level to aircraft operations. Increased bird activity, particularly during critical phases of flight such as take-off and landing, poses a direct hazard to aircraft and, thus, is considered a higher threat. The crane operation, while still a safety hazard, has mitigations in place (lowered during LVP), placing it at a slightly lower threat level.
+
+---
+
+#Airport: EGBB
+
+##A1:
+Based on the NOTAMs provided, the following critical NOTAMs affect airport operations at EGBB:
+
+- **Instrument Approach Charts Adjustments**: Adjustment of CAT D VM(C) OCA (OCH AAL) for both runways 15 and 33 to 1410. ID:[C0362/24]【19:0†source】.
+- **Temporary Restricted Area Active**: A temporary restricted area within a 0.8 NM radius of 522835N 0015346W, specifically applying to unmanned air systems, with exceptions stated in AIC 021/2024. Active from May 25, 2024, 08:00 to May 26, 2024, 22:59. ID:[J0524/24]【19:0†source】.
+
+These NOTAMs are critical for understanding recent changes to instrument approach procedures and temporary air space restrictions.
+
+##A2:
+The relevant NOTAMs affecting Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at airport EGBB are as follows:
+
+- **Instrument Landing System (ILS) for Runway 33 U/S (Unserviceable)**: The ILS for runway 33 at EGBB is unserviceable. ID:[C0382/24] .
+
+No other NOTAMs related to other NAVAIDs (VOR, DME, or NDB) or GPS RAIM anomalies at EGBB were identified in the provided files.
+
+##A3:
+Based on the NOTAMs provided for airport EGBB, the influence on runway availability is primarily due to maintenance work:
+
+- **Runway 15/33 Temporary Closure**: Closed due to maintenance from May 8, 2024, 23:00 to May 9, 2024, 04:30. Repetitive closures noted for subsequent nights within the same timing window. ID:[D0416/24].
+
+- **Runway Surface Inspection**: Conducted daily at specified morning times, indicating potential brief impacts but not a full closure. ID:[D0427/24].
+
+There were no other NOTAMs related to runway closures or conditions directly affecting runway usability, such as snow, ice, or debris, identified in the provided files. The temporary closure for maintenance is the primary concern regarding runway availability, directly impacting airport operations.
+
+##A4:
+For airport EGBB, the following NOTAMs highlight safety hazards within the airport premises or its immediate airspace:
+
+1. **Drone Activity Reported**: Prohibition of flight operations for unmanned aircraft within a 0.8 NM radius centered on 522835N 0015346W due to drone activity, correlating to a temporary restricted area. This NOTAM specifies a high level of threat due to the potential for direct encounters with aircraft. ID:[J0524/24].
+
+There were no NOTAMs reporting bird activity or other aerial hazards at EGBB in the provided files. The reported drone activity poses a significant safety hazard, demanding immediate attention and response from involved parties.
+
+---
+
+#Airport: EGHI
+
+##A1:
+Based on the provided NOTAMs, here are the critical NOTAMs affecting airport operations at EGHI in order of priority:
+
+- **Stand 11 and Stand 12 Closure** ID:C1493/24, C1545/24
+  - Stand 11 closed from March 12, 2024, to April 12, 2024.
+  - Stand 12 closed from March 15, 2024, to March 30, 2024.
+
+- **Solent CTA and Southampton CTR/ATZ Operating Hours [not directly a closure or significant delay but has implications for operations]** ID:B0549/24
+  - Operating hours: 
+    - Monday-Saturday: As per AIP 
+    - Sunday: 0630-2130 
+  - The Southampton CTR and all Solent CTA will be deactivated and reclassified as Class G outside these hours. Service availability is tactically managed to accommodate scheduled movements.
+
+- **NDB Obstruction Light Unserviceable [safety concern but not as high a priority as closures]** ID:C1501/24
+  - NDB obstruction light unserviceable. In effect from March 12, 2024, to June 11, 2024.
+
+These are the primary NOTAMs that could impact flight operations at EGHI, categorized according to the critical priority list provided.
+
+##A2:
+After reviewing the NOTAMs for airport EGHI, here are the reported issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies:
+
+- **NDB Obstruction Light Unserviceable** ID:C1501/24
+  - The NOTAM reports that the NDB obstruction light is unserviceable from March 12, 2024, to June 11, 2024.
+
+There are no reported issues related to Instrument Landing Systems (ILS), other types of NAVAIDs such as VOR or DME, or GPS RAIM anomalies specifically mentioned in the NOTAMs for EGHI. The only report pertains to an NDB obstruction light being unserviceable.
+
+##A3:
+After carefully analyzing the provided NOTAMs for airport EGHI, there are currently no NOTAMs specifically related to runway closures, maintenance work, or conditions affecting runway usability such as snow, ice, or debris. 
+
+I've identified NOTAMs impacting airport operations, including stand closures and an issue with an NDB obstruction light being unserviceable, but none of these directly affect the availability or condition of the runways at EGHI. 
+
+Thus, based on the information available, no applicable NOTAMs specifically pertain to runway closures or conditions affecting runway usability at EGHI.
+
+##A4:
+Based on the review of the provided NOTAMs for airport EGHI, there are no NOTAMs that specifically report safety hazards such as bird activity, drones, or other aerial hazards within the airport premises or its immediate airspace. 
+
+My analysis covered critical NOTAMs affecting airport operations, including stand closures, operating hours, and an NDB obstruction light unserviceability, but none of these address safety hazards like bird activity or drones. 
+
+Therefore, there are no applicable NOTAMs reporting safety hazards within the EGHI airport premises or its immediate airspace based on the available data.
+
+---
+
+#Airport: RJTT
+
+##A1:
+Based on the NOTAMs affecting airport operations at RJTT, the following critical ones have been identified:
+
+- **PAPI for RWY 16L Unserviceable Due to Trouble**: The Precision Approach Path Indicator (PAPI) for runway 16L is unserviceable, affecting visual descent point for ILS or LOC RWY 16L. This has led to the visual descent point (VDP(LOC)) not being applicable. These NOTAMs are in effect until April 5, 2024. ID:J0090/24, J0091/24【19:0†source】.
+
+Critical NOTAMs are prioritized based on their potential to directly affect airport operations, including runway and instrument landing system serviceability.
+
+##A2:
+Based on the review of the NOTAMs for the airport RJTT, the following issues have been identified related to Instrument Landing Systems (ILS), other NAVAIDS (VOR, DME, or NDB), and GPS RAIM anomalies:
+
+- **PAPI for RWY 16L Unserviceable Due to Trouble**: The Precision Approach Path Indicator (PAPI) for runway 16L is unserviceable, not directly affecting the ILS but related to approach aids. ID:J0090/24 .
+- **ILS RWY 16L VDP Unserviceable**: The visual descent point for ILS or LOC RWY 16L is not applicable, indirectly related to ILS serviceability by impacting approach procedures. ID:J0091/24 .
+
+No direct NOTAMs regarding VOR, DME, NDB unserviceability, or GPS RAIM anomalies at RJTT have been found in the provided files. The listed NOTAMs are closely related to instrument landing systems, focusing on the PAPI service affecting visual descent guidance alongside ILS operations.
+
+##A3:
+After a careful analysis of the NOTAMs for RJTT airport, here are the pertinent findings related to runway availability, closures, maintenance work, or conditions affecting usability:
+
+- **PAPI for RWY 16L Unserviceable Due to Trouble**: This NOTAM, while not directly indicating a closure or maintenance of the runway itself, affects operations on runway 16L by rendering the PAPI unserviceable, which is crucial for landing, especially under poor visibility conditions. ID:J0090/24.
+
+- **ILS RWY 16L VDP Unserviceable**: This NOTAM also impacts runway 16L, indicating that the visual descent point for ILS or LOC RWY 16L is not applicable, which could affect landing procedures and, indirectly, the usability of the runway. ID:J0091/24.
+
+No other NOTAMs directly mentioning runway closures, specific maintenance work, snow, ice, debris, or conditions explicitly affecting the physical usability of the runways at RJTT were identified within the provided files. The listed NOTAMs mainly relate to navigational aids affecting approach and landing on runway 16L, which indirectly influence runway operations.
+
+##A4:
+After reviewing the provided files for NOTAMs concerning RJTT airport, no specific NOTAMs were found that report safety hazards within the airport premises or its immediate airspace, including bird activity, drones, or other aerial hazards. 
+
+This evaluation covers the analysis of provided data concerning RJTT airport NOTAMs, focusing on safety hazards that directly impact airport and aircraft operations.
+
+---
+
+#Airport: ZBAA
+
+##A1:
+The critical NOTAMs affecting airport operations at ZBAA are as follows, listed in priority order:
+
+- **TWY Z9 CLOSED SOUTH OF TWY M7:** For a brief period, Taxiway Z9 will be closed south of Taxiway M7, impacting taxi routes. ID:[E0512/24]【19:1†source】.
+- **TWY F7 CLOSED BETWEEN TWY Z9 AND TWY Z3:** Taxiway F7 will be closed between Taxiway Z9 and Taxiway Z3 for a limited duration, affecting taxiing operations. ID:[E0509/24]【19:1†source】.
+- **FLW TWY CLOSED:** Several taxiways will be closed including TWY Z3 between TWY F7 and TWY Z2, and TWY M7 between TWY Z9 and TWY F, indicating restricted movement areas and impacting taxiing flow. ID:[E0527/24]【19:0†source】.
+- **TWY F4 CLOSED BETWEEN TWY Z9 AND TWY Z3:** Taxiway F4 will be temporarily closed between Taxiway Z9 and Taxiway Z3. This closure could significantly impact ground movement in the specified area. ID:[E0529/24]【19:0†source】.
+
+These NOTAMs are related to temporary taxiway closures, which are critical to consider for airport operations regarding taxi routes and ground movement planning. It's essential for pilots and ground control to adapt to these changes to ensure safety and efficiency in navigating the affected areas at ZBAA.
+
+##A2:
+The reported issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at ZBAA are as follows:
+
+- **ILS SYSTEMS UNSERVICEABLE:** The Instrument Landing System (ILS) for RWY 01/19 and RWY 18L/36R at ZBAA will be unserviceable periodically, affecting precision approach capabilities. ID:[A0218/24-ZBAA] .
+- **DME SYSTEM UNSERVICEABLE:** The DME associated with the ILS on RWY 18L/36R will also be unserviceable during the same periods as the ILS systems, complicating distance measurement for approaches and departures. ID:[A0218/24-ZBAA] .
+- **VOR/DME UNSERVICEABLE:** The VOR/DME 'POM' at ZBAA will be unserviceable intermittently, impacting navigation aids for both arrivals and departures. ID:[A0192/24-ZBAA] .
+
+These NOTAMs signify critical navigational equipment unavailability, which can significantly affect flight operations, especially during adverse weather conditions or periods of low visibility, requiring reliance on instrument approaches for safe landing and navigation around the airport.
+
+##A3:
+The current availability of runways at ZBAA and NOTAMs related to runway closures, maintenance work, or conditions affecting runway usability are as follows:
+
+- **RWY 18L/36R CLOSED DUE TO MAINTENANCE:** This runway will be closed periodically for maintenance work, significantly impacting airport operations by reducing available runways for landing and takeoff. ID:[A0217/24-ZBAA].
+- **RWY 01/19 CLOSED FOR MAINTENANCE:** Similarly, RWY 01/19 will also undergo maintenance during specified hours, further limiting operational flexibility and capacity at the airport. ID:[A0217/24-ZBAA].
+
+These NOTAMs indicate significant operational impacts due to the closure of two major runways for maintenance purposes. The simultaneous closure of these runways for maintenance will require careful planning and scheduling to minimize disruptions to flights, ensuring safety while accommodating the reduced runway availability.
+
+##A4:
+At airport ZBAA, the NOTAMs reporting safety hazards within the airport premises or its immediate airspace, including bird activity, drones, or other aerial hazards, are as follows:
+
+- **BIRD ACTIVITY IN VICINITY:** There's an increased bird activity reported around ZBAA, specifically within the vicinity of the airport. This poses a significant risk for aircraft, especially during takeoff and landing phases, due to the potential for bird strikes. ID:[A0204/24-ZBAA].
+- **UNMANNED AIRCRAFT OPERATIONS:** Unmanned aircraft (drone) activities are reported in the airspace around ZBAA, presenting a safety hazard to incoming and departing flights by increasing the risk of mid-air collisions or near-misses. ID:[A0202/24-ZBAA].
+
+These NOTAMs describe serious safety hazards that can affect aircraft during critical phases of flight, such as takeoff and landing. The presence of birds significantly increases the risk of bird strikes, which can cause damage to aircraft or even lead to accidents. Similarly, unmanned aircraft (drones) pose collision risks, especially when operated irresponsibly or without coordination with airport authorities. Both types of hazards necessitate increased vigilance and possibly altered flight or approach patterns to ensure safety.
+
+---
+
+#Airport: OMDB
+
+##A1:
+Based on the provided NOTAMs, critical NOTAMs affecting airport operations at OMDB are summarized as follows:
+
+- **Fireworks Display near OMDB**: A fireworks display is scheduled to take place, potentially affecting operations due to visual distractions or flight restrictions within a radius of 0.054 NM centered on 251540.30N 0551839.40E from March 22, 2024, 1700 to March 24, 2024, 1900. **ID:A1067/24**
+- **Taxiway Closure on March 21**: OMDB will experience taxiway closures, possibly causing delays or rerouting of ground taxi operations, on March 21, 2024, from 1130 to 1330. **ID:A1055/24**
+- **Taxiway Closure on March 20**: Similar taxiway closures at OMDB are expected on March 20, 2024, from 1100 to 1400, which could also lead to operational delays or adjustments. **ID:A1053/24**
+
+These NOTAMs are prioritized based on potential impact on airport operations, with attention to the proximity of the event dates.
+
+##A2:
+Based on the provided NOTAMs, critical NOTAMs affecting airport operations at OMDB are summarized as follows:
+
+- **Fireworks Display near OMDB**: A fireworks display is scheduled to take place, potentially affecting operations due to visual distractions or flight restrictions within a radius of 0.054 NM centered on 251540.30N 0551839.40E from March 22, 2024, 1700 to March 24, 2024, 1900. **ID:A1067/24**
+- **Taxiway Closure on March 21**: OMDB will experience taxiway closures, possibly causing delays or rerouting of ground taxi operations, on March 21, 2024, from 1130 to 1330. **ID:A1055/24**
+- **Taxiway Closure on March 20**: Similar taxiway closures at OMDB are expected on March 20, 2024, from 1100 to 1400, which could also lead to operational delays or adjustments. **ID:A1053/24**
+
+These NOTAMs are prioritized based on potential impact on airport operations, with attention to the proximity of the event dates.
+
+##A3:
+Based on the provided NOTAMs, the current availability of runways at OMDB is affected by the following NOTAMs concerning runway 12R/30L:
+
+- **Partial Unserviceability of Runway Lights and PAPI**: For a brief period on March 19, 2024, from 0555 to 0600 and again from 1000 to 1005, various lights including Approach Lighting System (ALS), Runway Centerline Lights (RCLL), Threshold Lights (RTZL), End Lights (REDL), Edge Lights (RENL), and Touchdown Zone Lights (RTHL) for runway 12R/30L are 50% unserviceable. Additionally, the North Side Precision Approach Path Indicator (PAPI) for runway 12R/30L is unserviceable, as well as 50% of the stop bar lights at various runway holding positions. Sequenced Flashing Lights (SFL) for runway 12R are not available during this time. **ID:A1088/24**
+- **Multiple Day Partial Unserviceability of Runway Lights and PAPI**: From March 20 to March 22, 2024, between 0600 and 1100 each day, the same conditions of partial unserviceability of runway 12R/30L lighting systems and PAPI as described in the previous NOTAM apply. This includes the 50% unserviceability of various runway lights and the North Side PAPI for runway 12R/30L, as well as 50% of the stop bar lights at key runway holding positions. Sequenced Flashing Lights (SFL) for runway 12R are not available during these times as well. **ID:A1076/24**
+
+These NOTAMs are critical as they report on conditions affecting runway usability, specifically pertaining to lighting and PAPI systems that are crucial for landing operations, especially in low visibility conditions. The scheduled times indicate specific periods of potential operational impact.
+
+##A4:
+Based on the NOTAMs at airport OMDB, the reported safety hazards within the airport premises or its immediate airspace, ranked by the level of threat they pose to aircraft operations, are as follows:
+
+1. **Unmanned Aerial System (UAS) Activities up to 400FT AGL**: Activities involving unmanned aerial systems will take place in an area bounded by specific coordinates, with a ceiling of up to 400FT AGL on March 19, 2024, from 0100 to 1600. The activity area includes points at 252224.78N 0551719.66E, among others. This poses a significant risk to aircraft, especially during takeoff and landing phases. **ID:A1044/24**
+
+2. **Unmanned Aerial System (UAS) Activities up to 100FT AGL**: Another unmanned aerial system activity is reported, taking place within a defined area with a ceiling of up to 100FT AGL on March 19, 2024, from 0100 to 1600. This activity involves different coordinates, including 252048.90N 0551949.24E, among others. Although lower than the previously mentioned UAS activity, it still constitutes a hazard to aircraft operations, particularly at lower altitudes. **ID:A1043/24**
+
+3. **Sky Tracker Light Display near OMDB**: A sky tracker light display, which may pose a visual distraction to pilots, is scheduled from March 19, 2024, 1600 to March 29, 2024, 2200. The event is centered at 251250.94N 0552653.29E within a radius of 0.005 NM. While less directly dangerous than UAS activity, it could still contribute to reduced pilot situational awareness, especially during night operations. **ID:A1066/24**
+
+These NOTAMs indicate potential aerial hazards that vary in severity from direct operational risks (UAS activities) to factors that could affect pilot concentration and visibility (sky tracker light display).
+
+---
+
+#Airport: VHHH
+
+##A1:
+- Taxiway B west of Taxiway R and Taxiway P near stands L411 and L412 are closed due to work in progress until April 29, 2024. ID:A0074/24【19:0†source】.
+- Remote marshallers are now operational at parking stands R13 to R21, and pilots must follow aircraft docking system signals. Specifics are detailed in AIC 01/24, effective from January 8, 2024, until March 31, 2024. ID:A0022/24【19:0†source】.
+- Taxiway W between Taxiway W1 and Taxiway W2 will be closed due to work in progress on March 21, 2024. ID:A0301/24【19:1†source】.
+- Several taxiways and taxi lanes are closed due to work in progress starting from March 22, 2024, including Taxiway C between Taxiways C4 and C6, Taxiway C5, Taxiway V between Taxiway B and Taxi Lane U2, Taxiway V1, Taxi Lane R near stands D317, D318, and D319, Taxiway Z between Taxiways D and F, Taxiway E east of Taxiway Y, Taxiway A east of Taxiway B6, and Taxiway V4. ID:A0302/24【19:2†source】.
+
+##A2:
+- ILS CAT II and III are unserviceable on RWY 07L/25R due to work in progress until May 31, 2024. ID:A0128/24 .
+- VOR/DME 'SLM' 117.3MHz/CH119X is unserviceable until April 14, 2024. ID:A0183/23 .
+- GPS RAIM outages are expected on several dates and times in March 2024. Specific times and the impact on non-precision approach and oceanic operations are detailed. ID:A0288/24 .
+
+##A3:
+- RWY 07L/25R is closed due to maintenance work from 1100-1600 UTC on March 21, 2024. ID:A0300/24 .
+- ILS CAT II and III are unserviceable on RWY 07L/25R due to work in progress until May 31, 2024. ID:A0128/24 .
+- Grooving works on RWY 07R/25L will lead to periodic closures: from 1630-2359 UTC on Tuesdays, Saturdays, and Sundays, and from 1700-2359 UTC on Mondays, Wednesdays, Thursdays, and Fridays. This condition is in effect from March 29, 2024, to May 31, 2024. ID:A0311/24 .
+
+##A4:
+- Increased bird activity near RWY 07R/25L due to the seasonal migratory pattern is reported. All pilots are advised to exercise caution, and this condition is warned against until April 29, 2024. ID:A0101/24 .
+- Unauthorized drone activities within the vicinity of VHHH have been reported, posing significant risks to aircraft operations. Pilots are urged to exercise increased vigilance until further notice. This is effective immediately and ongoing until further detailed assessment. ID:A0081/24 .
+
+---
+
+#Airport: ZSPD
+
+##A1:
+Based on the NOTAMs provided, here are the critical NOTAMs affecting airport operations at ZSPD:
+
+- **Runway Closure**: RWY 17L/35R is closed, with instructions for aircraft to cross via TWY P1, P2, P4, P5 during the specified times. ID:[F1605/24] 【19:1†source】.
+- **Taxiway Closures/Limitations**:
+  - TWY H (between TWY J1 and TWY J2) available only for aircraft with a wingspan less than 36m due to work in progress (WIP). ID:[F1249/24] 【19:0†source】.
+  - TWY H1-H6 closed due to WIP. ID:[F1250/24] 【19:2†source】.
+  - Several taxiways including TWY R2, R5 East of RWY 16L/34R, and TWY H between TWY J1 and TWY J2 have limitations. ID:[F1251/24] 【19:0†source】.
+  - Taxiways L22, L25, L25A, L26, and L26A closed for a specific period, with instructions for aircraft to cross L22 via TWY W1, W6. ID:[F1609/24] 【19:1†source】.
+  - TWY P4 and TWY Q4 closed west of TWY C, and taxiway L15 between parking stand number 317 and number 327. ID:[F1488/24] 【19:2†source】.
+
+##A2:
+Based on the provided NOTAMs, here are the reported issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at airport ZSPD:
+
+- **ILS Unserviceability**:
+  - ILS 'ID' RWY 16R unserviceable. ID:[F1489/24] .
+  
+- **DME Unserviceability**:
+  - DME 'PD' CH80X associated with RWY 16R unserviceable. ID:[F1490/24] .
+
+No NOTAMs reported issues specifically regarding VOR, NDB, or GPS RAIM anomalies at ZSPD within the provided documents.
+
+##A3:
+Based on the provided NOTAMs for airport ZSPD, the following summarizes the current availability of runways and related conditions affecting usability:
+
+1. **Runway Closure**: RWY 17L/35R closed. Aircraft are instructed to cross via TWY P1, P2, P4, P5 at specified times. This directly impacts airport operations by reducing the available runways for takeoff and landing. ID:[F1605/24] .
+
+There were no other NOTAMs specifically mentioning maintenance work or conditions affecting runway usability, such as snow, ice, or debris, within the provided documents. The closure of runway 17L/35R is the primary concern relating to runway availability at ZSPD as per the provided NOTAMs.
+
+##A4:
+After reviewing the provided NOTAMs for airport ZSPD, there are no specific NOTAMs reporting safety hazards such as bird activity, drones, or other aerial hazards within the airport premises or its immediate airspace. Safety concerns of this nature are not mentioned within the available documents for ZSPD.
+
+---
+
+#Airport: WSSS
+
+##A1:
+- Taxiway L between TWY U13 and TWY C14 is closed until 20th March 2024. ID:A0281/24【19:0†source】.
+- Taxiway R between TXL R7 and TWY V10 is closed due to work in progress (WIP), effective until 30th March 2024. ID:A3474/23【19:0†source】.
+- Junction of TWY W/TWY W10/TWY S is closed due to WIP, intermittently across specific dates in March 2024. ID:A0945/24【19:1†source】.
+- Taxiway S between TWY V10 and TWY R7 is closed due to WIP, from 1st April to 30th April 2024. ID:A0949/24【19:1†source】.
+- Taxiing restrictions on TWY V: Northbound aircraft are not allowed to turn left onto TWY R, and southbound aircraft are not allowed to turn right onto TWY S. ID:A0928/24【19:2†source】.
+- The junction of TWY S/TWY V10 is closed due to WIP, effective on 1st April 2024. ID:A0927/24【19:2†source】.
+
+##A2:
+- ILS CAT II and III not available on RWY 20R due to maintenance, available hours specified for various dates in March 2024. ID:A0782/24 .
+- The Seletar (VOR/DME SLA) Frequency 116.5 MHz/CH112X is unavailable due to maintenance on specific dates and times in April 2024. ID:A0936/24 .
+- GPS RAIM not available for en-route and non-precision approach due to maintenance on specified dates in March 2024. ID:A2369/24 .
+
+##A3:
+- Runway 02C/20C closed due to maintenance, with specific operating hours listed for certain dates in March and April 2024. ID:A0806/24 .
+- ILS CAT II and III not available on RWY 20R due to maintenance, with available hours specified for various dates in March 2024. Although this directly affects instrument landing systems rather than runway availability, it significantly impacts operations especially under poor weather conditions. ID:A0782/24 .
+
+##A4:
+No applicable NOTAMs
+
+---
+
+#Airport: RKSI
+
+##A1:
+Based on the provided information, here are the critical NOTAMs affecting airport operations at RKSI:
+
+- **Missed Approach Procedure Change for RNP RWY 15R**: Pilots are advised to read track to KC999 instead of track to GC999 as per AIRAC AIP Amendment 13/23 AD CHART 2-57. This change is permanent. ID:[A0066/24]【19:0†source】.
+
+- **A-CDM Phase 2 Operation Step 2 and 3 Period Change**: The period for A-CDM Phase 2 operation step 2 and 3 is changed as follows: Step 2 from 1600 UTC 29 Jun 2022 to 0900 UTC 3 Jun 2024, and Step 3 from 0900 UTC 3 Jun 2024 to 1600 UTC 28 Jul 2024. ID:[A0294/24]【19:1†source】.
+
+- **Instrument Approach Procedure Change for ILS OR LOC RWY 34R**: The approach procedure for ILS or LOC RWY 34R has been modified regarding the minimum visibility and decision altitude in case of inoperative ALS as per AIRAC AIP Amendment 13/23 AD CHART 2-69. Specifically, the CAT-1(CG 2.5 percent) ALS inoperative visibility has changed to 1500M, and the CAT-1(CG 4.0 percent) decision altitude has changed to DA223(DH200). ID:[A0073/24]【19:2†source】.
+
+These NOTAMs directly affect flight operations and should be given priority in pre-flight planning and briefing.
+
+##A2:
+Based on the provided information, here are the issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies reported at airport RKSI:
+
+- **Instrument Approach Procedure Change for ILS OR LOC RWY 34R**: The approach procedure for ILS or LOC RWY 34R at RKSI has been modified regarding the minimum visibility and decision altitude in case of inoperative ALS. Specifically, the changes are for CAT-1(CG 2.5 percent) ALS inoperative visibility to 1500M, and for CAT-1(CG 4.0 percent) decision altitude to DA223(DH200). ID:[A0073/24] .
+
+No other specific NOTAMs related to issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), or GPS RAIM anomalies at RKSI were found in the critical information provided.
+
+##A3:
+Based on the provided NOTAMs for airport RKSI, there are no specific NOTAMs related to runway closures, maintenance work, or conditions affecting runway usability due to snow, ice, or debris within the critical information highlighted earlier.
+
+Therefore, according to the analyzed information, there are no reported issues directly affecting the availability of runways at RKSI within the critical NOTAMs provided.
+
+##A4:
+Based on the provided information, there are no NOTAMs specifically reporting safety hazards such as bird activity, drones, or other aerial hazards within the airport premises or its immediate airspace at RKSI within the critical NOTAMs previously highlighted.
+
+Therefore, there are no reported safety hazards at airport RKSI within the analyzed critical NOTAMs.
+
+---
+
+#Airport: WMKK
+
+##A1:
+Critical NOTAMs affecting airport operations at WMKK include:
+
+- **Taxiway B Closure:** A portion of Taxiway B between Intersection B11 and B13 is closed. ID:A1011/24【19:0†source】.
+- **Approach Lighting System Unserviceable:** Sequenced Flashing Lights (SFL) for Runway 32R are unserviceable. ID:A0419/24【19:1†source】.
+- **Taxiway S1 Closure:** Taxiway S1 is closed. ID:A1042/24【19:2†source】.
+- **Taxiway U2 Portion Closure:** A portion of Taxiway Link U2 between Aircraft Stand J11 and Taxiway Q is closed. ID:A1030/24【19:2†source】.
+
+These NOTAMs cover taxiway closures and lighting system unserviceability, which could significantly affect ground operations and landing procedures, respectively.
+
+##A2:
+Based on the provided NOTAMs for WMKK, the issues related to Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies include:
+
+- **ILS Unserviceability:** The ILS for Runway 33 at WMKK is unserviceable. ID:A1086/22 .
+- **DME Unserviceability:** The DME associated with the ILS for Runway 33 at WMKK is also unserviceable. ID:A1086/22 .
+
+These NOTAMs specifically address the unserviceability of the ILS and DME for Runway 33, impacting approaches and landings on this runway. No other NAVAIDs (VOR or NDB) issues or GPS RAIM anomalies are reported for WMKK in the provided NOTAMs.
+
+##A3:
+Considering the provided NOTAMs for WMKK regarding runway availability and considering conditions such as closures, maintenance, or environmental conditions affecting usability, the following NOTAMs are relevant:
+
+- **Runway 32R Reduced Width:** The width of Runway 32R is temporarily reduced due to works on the adjacent taxiway. This may affect operational capacity. ID:A1084/23 .
+
+This is the only NOTAM directly affecting runway usability at WMKK based on the provided information, focusing on the reduced operational width of Runway 32R. It doesn't explicitly mention complete closures, maintenance work leading to a closure, nor conditions like snow, ice, or debris directly impacting runways.
+
+##A4:
+Based on the provided NOTAMs for WMKK, the issues related to safety hazards within the airport premises or its immediate airspace include:
+
+- **Increased Bird Activity:** There is a reported increase in bird activity near the movement area and its vicinity. This poses a risk to aircraft, especially during take-off and landing phases due to the potential for bird strikes. ID:A1039/22 .
+- **Unauthorized Drone Activity:** Unmanned Aerial Vehicle (UAV) or drone activity has been observed in the vicinity of WMKK. This unauthorized drone activity poses a significant safety risk to all flight operations due to the potential for collision. ID:A1045/22 .
+
+Prioritization of these NOTAMs by the level of threat they pose to aircraft operations is as follows:
+
+1. **Unauthorized Drone Activity (ID:A1045/22):** Drones represent a significant risk due to their potential to collide with aircraft, especially during critical phases of flight such as take-off and landing, which can result in severe damage or catastrophic failure.
+
+2. **Increased Bird Activity (ID:A1039/22):** While bird strikes are a common hazard and airports have mitigation strategies, increased bird activity still represents a considerable risk to aircraft safety, potentially causing damage or in worst-case scenarios, an engine failure. 
+
+These hazards need continuous monitoring and preventive measures to mitigate risks to aircraft operations.
+
+---
+
+#Airport: VTBS
+
+##A1:
+Based on the provided NOTAMs, there are multiple critical NOTAMs affecting airport operations at VTBS. They are summarized as follows:
+
+- **Aircraft Stand Closure**: ACFT STAND NR 131 AND 132 closed due to work in progress (WIP) ID:[A0304/24]【19:0†source】.
+- **Taxiways Closure**: Various taxiways closed due to WIP on specific dates and times:
+    - TXL T10 behind ACFT STAND NR 305, TXL T11 behind ACFT STAND NR E1 E3 E5 E7 E9, and TXL T12 behind ACFT STAND NR D5 D6 D7 D8 on March 19 from 1930 to 2300 Zulu time ID:[A0685/24]【19:1†source】.
+    - TWY E between TWY D3 and TWY D5, TWY D4, TWY E5, and TWY E6 on March 19 from 1830 to 2300 Zulu time ID:[A0686/24]【19:1†source】.
+    - TWY E between TWY D7 and TWY D9, TWY D8, TWY E9, and TWY E12 on March 19, 21, 22, and 23 from 1830 to 2230 Zulu time ID:[A0680/24]【19:2†source】.
+- **Visual Docking Guidance System Unserviceable**: VDGS for ACFT STAND NR 101-129, 201-203, 301-308, 401-403, and 501-525 is unserviceable due to maintenance. Aircraft have to follow marshalling signals strictly ID:[A0305/24]【19:0†source】.
+
+These NOTAMs are critical for planning and operations at VTBS, with implications on aircraft parking, marshalling, and movement within the airport.
+
+##A2:
+After reviewing the provided NOTAMs, there are specific issues reported with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at airport VTBS as follows:
+
+- **Instrument Landing Systems (ILS) Issues**: 
+    - ILS/DME LLZ "IBW" 110.9 MHZ Cat II and GP 334.5 MHZ Cat I unserviceable due to maintenance on March 19 from 1600 to 1900 UTC ID:[A0682/24] .
+    - ILS/DME LLZ "IAB" 110.3 MHZ Cat II and GP 333.9 MHZ Cat II unserviceable due to maintenance on March 20 from 0930 to 1100 UTC ID:[A0679/24] .
+
+- **Other NAVAIDs (VOR, DME, NDB) Issues**: No issues reported.
+
+- **GPS RAIM Anomalies**: No anomalies reported.
+
+These NOTAMs indicate critical ILS serviceability issues at VTBS, affecting ILS LLZ and GP for specific periods due to maintenance. No issues with other NAVAIDs or GPS RAIM anomalies are reported within the critical NOTAMs affecting VTBS.
+
+##A3:
+Based on the provided NOTAMs for VTBS, there are no NOTAMs directly mentioning runway closures, maintenance work, or conditions affecting runway usability such as snow, ice, or debris. 
+
+The critical NOTAMs identified earlier focus on aircraft stand closures, taxiway closures, visual docking guidance system unserviceability, and ILS serviceability issues. However, there were no specific mentions of runway availability, closures, or conditions negatively impacting runway usability. 
+
+This indicates that, as per the information available from the reviewed NOTAMs, there are no reported issues directly affecting the runways at VTBS.
+
+##A4:
+After reviewing the provided NOTAMs for VTBS, there were no NOTAMs directly mentioning safety hazards such as bird activity, drones, or other aerial hazards within the airport premises or its immediate airspace. 
+
+The previously identified critical NOTAMs related to airport operations primarily include closures of aircraft stands and taxiways, ILS and VDGS unserviceability, none of which mention any aerial safety hazards.
+
+Therefore, based on the information available from the NOTAMs reviewed, there are no reported safety hazards like bird activity, drones, or other aerial hazards at VTBS that pose a threat to aircraft operations.
+
+---
+
+#Airport: VIDP
+
+##A1:
+Based on the NOTAMs provided, the following are critical NOTAMs affecting airport operations at VIDP:
+
+- ILS (CAT 1) procedure for RWY 29L adjustments: Amendments have been made regarding the OCA(H) for straight in approach GP in-operative procedure as 1310(558) FT instead of 1280(528) FT. This permanent change is effective from 18 Feb 2024. ID: G0184/24【19:0†source】.
+- Taxiway operational instruction: Pilots instructed by ATC to hold short of a taxiway/taxiway intersection on a taxiway not provided with intermediate holding position marking/lights must stop the aircraft at a point which provides adequate clearance from all aircraft types on intersecting taxiway. This advisory enhances clarity on taxiway operations. ID: A2015/23【19:2†source】.
+
+No further critical NOTAMs affecting airport operations at VIDP were found in the provided listings.
+
+##A2:
+The reported issues with Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at VIDP are as follows:
+
+ILS:
+- ILS (CAT 1) for RWY 29L adjustments: Amendments to straight in approach GP in-operative procedure OCA(H) listed as 1310(558) FT, adjusted from 1280(528) FT. This modification is permanent starting 18 Feb 2024. ID: G0184/24 .
+
+Other NAVAIDs:
+- No specific issues reported with VOR, DME, or NDB in the reviewed NOTAMs for VIDP.
+
+GPS RAIM Anomalies:
+- No GPS RAIM anomalies reported in the provided NOTAMs for VIDP.
+
+These are all the relevant findings from the NOTAMs provided regarding ILS, other NAVAIDs, and GPS RAIM anomalies at airport VIDP.
+
+##A3:
+Reviewing the NOTAMs provided, there were no specific NOTAMs identified that report on runway closures, maintenance work, or conditions affecting runway usability (like snow, ice, or debris) at VIDP airport. The reviewed NOTAMs focused on adjustments to ILS procedures and taxiway operational instructions without mentioning any impact on runway availability due to the mentioned conditions or maintenance work.
+
+Therefore, based on the provided NOTAMs, there are no current issues reported that affect the availability of runways at VIDP in terms of closures, maintenance, or conditions like snow, ice, or debris.
+
+##A4:
+Among the NOTAMs provided for VIDP airport, there are no specific NOTAMs reported that highlight safety hazards within the airport premises or its immediate airspace, such as bird activity, drone incursions, or other aerial hazards. The reviewed NOTAMs focus on adjustments to ILS procedures and taxiway operational guidance without mentioning any safety hazards related to wildlife or unauthorized aerial activity.
+
+Thus, based on the documents provided, there are no NOTAMs that report on safety hazards like bird activity, drones, or other aerial hazards at VIDP airport.
+
+---
+
+#Airport: VTSP
+
+##A1:
+Based on the provided NOTAMs, the following critical NOTAMs affecting airport operations at VTSP have been identified:
+
+- **Trigger NOTAM for revised Phuket International Airport runway closure program**: Effective from 18 Apr 2024 until 27 Oct 2024. Runway closure details to be specified in AIP SUP A15/24. ID: A0590/24【19:0†source】.
+  
+- **Runway Threshold Identification Lights (RTIL) for Runway 09 unserviceable**: This outage is scheduled from 31 Jan 2024 until 30 Apr 2024. ID: A0232/24【19:1†source】.
+
+These NOTAMs affect critical airport operations, including runway availability and lighting for runway approaches.
+
+##A2:
+For airport VTSP, the following NOTAMs related to Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies have been identified:
+
+- **DME associated with ILS for Runway 27 unserviceable**: This issue is in effect from 31 Jan 2024 until 30 Apr 2024. ID: A0233/24 .
+
+This is the only reported issue affecting navigational aids at VTSP among the provided NOTAM files.
+
+##A3:
+For airport VTSP, the following NOTAMs relevant to runway availability, closures, maintenance work, or conditions affecting runway usability have been identified and prioritized based on their impact on airport operations:
+
+1. **Runway Closure Program**: A Trigger NOTAM for the revised Phuket International Airport runway closure program is in effect, indicating forthcoming runway availability details in AIP SUP A15/24. This closure is scheduled from 18 Apr 2024 until 27 Oct 2024. ID: A0590/24 .
+
+2. **Runway Lighting Unserviceable**: The Runway Threshold Identification Lights (RTIL) for Runway 09 are unserviceable, affecting runway operations particularly during low visibility conditions. This unserviceability is scheduled from 31 Jan 2024 until 30 Apr 2024. ID: A0232/24 .
+
+These are the currently identified NOTAMs directly affecting runway availability and usability at the airport VTSP from the provided files.
+
+##A4:
+There are no reported NOTAMs concerning safety hazards such as bird activity, drones, or other aerial hazards within the airport premises or its immediate airspace for airport VTSP among the provided NOTAM files.
+
+---
+
+#Airport: WMKL
+
+##A1:
+No applicable NOTAMs
+
+##A2:
+No applicable NOTAMs
+
+##A3:
+No applicable NOTAMs
+
+##A4:
+No applicable NOTAMs
+
+---
+
+#Airport: VTSM
+
+##A1:
+- TRIGGER NOTAM for permanent AIRAC AIP amendment affecting runway physical characteristics at VTSM effective from 18 April 2024. ID:A0589/24【19:0†source】.
+
+##A2:
+No applicable NOTAMs
+
+##A3:
+- Runway 17/35 at VTSM will be closed for maintenance, with specific operation hours for various dates extending from 18 April to 30 June 2024, impacting all operations during these times. ID:A0621/24【19:3†source】.
+  
+- RWY 17/35 FRICTION COEFFICIENT TEST results between 18 April and 30 June 2024 indicate acceptable deceleration action under dry conditions for both runways. ID:A0619/24【19:3†source】.
+
+- TRIGGER NOTAM - PERM AIRAC AIP AMDT affecting runway physical characteristics at VTSM effective 18 April 2024. ID:A0589/24【19:0†source】.
+
+No NOTAMs related to snow, ice, or debris affecting runway usability at VTSM were found.
+
+##A4:
+- Increased bird activity in the vicinity of VTSM from the ground up to 3000 feet, is reported effective from 22 March to 21 June 2024. This presents a safety hazard due to the risk of bird strikes. ID:A0456/24【19:3†source】. 
+
+This is the only NOTAM related to safety hazards within the airport premises or its immediate airspace at VTSM as per the provided NOTAMs. There are no NOTAMs reporting drones or other aerial hazards.
+
+---
+
+#Airport: VRMM
+
+##A1:
+- **All arriving and departing aircraft are subject to delay due to VIP movement** ID:A0097/24【19:0†source】.
+
+##A2:
+Based on the NOTAMs provided for VRMM:
+
+- **No reported issues with Instrument Landing Systems (ILS)**.
+- **No reported issues with other NAVAIDs (VOR, DME or NDB)**.
+- **No reported GPS RAIM anomalies**.
+
+No applicable NOTAMs
+
+##A3:
+- **Runway 18/36 closed due to WIP (Work in Progress)** ID:A0092/23 .
+- **TWY B closed, affecting access to RWY 18/36** ID:A0093/23 .
+
+These NOTAMs indicate significant impact on operations at VRMM with the closure of the main runway and a taxiway leading to it.
+
+##A4:
+- **Increased bird activity around the airport** ID:A0056/23 .
+
+This NOTAM is considered a safety hazard as it can pose a risk of bird strikes, which are a significant threat to aircraft safety, especially during takeoff and landing phases.
+
+---
+
+#Airport: VVDN
+
+##A1:
+Based on the provided NOTAMs, there is one critical NOTAM affecting airport operations at VVDN:
+
+- GPS RAIM outage predicted for RNP approach between 15:02 and 15:13 on 20th March 2024. ID:J0381/24【19:0†source】.
+
+##A2:
+Based on the provided NOTAMs, issues affecting Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies at airport VVDN are:
+
+1. VOR/DME 'DAN' unserviceable from 2303202330 until 2303230500. ID:A0200/23 .
+2. GPS RAIM outage predicted for RNP approach between 15:02 and 15:13 on 20th March 2024. ID:J0381/24 .
+
+##A3:
+Based on the provided NOTAMs related to airport VVDN, there are no NOTAMs reported regarding runway closures, maintenance work, or conditions affecting runway usability such as snow, ice, or debris. Therefore, there are no runway availability issues to report at airport VVDN from the provided data.
+
+##A4:
+Based on the provided NOTAMs related to airport VVDN, there are no NOTAMs reporting safety hazards such as bird activity, drones, or other aerial hazards within the airport premises or its immediate airspace. Therefore, there are no safety hazard issues to report at airport VVDN from the provided data.
+
+---
+
+#Airport: VLLB
+
+##A1:
+Based on the provided NOTAMs for VLLB, the critical NOTAMs affecting airport operations are summarized and ordered by priority as follows:
+
+- **Runway Closure due to repaint marking on runway surface, taxiway, and apron**: The runway 23/05 is closed from March 4, 2024, 14:00 to March 22, 2024, 20:00. This closure occurs between 14:00-20:00 on specific dates (March 4th to 8th, 10th to 15th, and 17th to 22nd). All aircraft must follow ATC instructions. 
+    - ID: [A0044/24], [A0047/24]
+
+No other NOTAMs related to critical categories were identified for VLLB in the provided files.
+
+##A2:
+Based on the provided NOTAMs for VLLB, the issues related to Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies are summarized as follows:
+
+- **Approach Light System Unserviceable**: The approach lighting system for Runway 05 is unserviceable. This NOTAM is in effect from January 25, 2024, at 07:30 to April 20, 2024, at 23:59.
+    - ID: [A0027/24]
+
+No other reported issues related to the Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), or GPS RAIM anomalies for VLLB were identified in the provided files.
+
+##A3:
+Based on the provided NOTAMs for VLLB, the relevant information regarding the current availability of runways and their conditions is summarized as follows:
+
+1. **Runway Closure for Maintenance Work**: Runway 23/05 at VLLB is closed due to repaint marking on the runway surface, taxiway, and apron. This closure occurs from March 4, 2024, 14:00 to March 22, 2024, 20:00, specifically between 14:00-20:00 on March 4th to 8th, 10th to 15th, and 17th to 22nd. All aircraft are directed to follow ATC instructions during this period. The reported NOTAMs indicate a significant impact on airport operations due to the unavailability of the runway 23/05 during these times.
+    - IDs: [A0044/24], [A0047/24]
+
+No other NOTAMs specifically related to other runway closures, maintenance work, or conditions affecting runway usability (such as snow, ice, or debris) at VLLB were identified in the provided files.
+
+##A4:
+No applicable NOTAMs
+
+---
+
+#Airport: VDSR
+
+##A1:
+- Siem Reap International Airport (VDSR) remains open until 15 Oct 2023 at 2000 UTC. From 16 Oct 2023 at 0001 UTC, radar vector service by ATC will be provided for routing to Standard Instrument Arrival (STAR) and Instrument Approach Procedure (IAP), and for connecting from Standard Instrument Departure (SID) to the next flight planned route. ID:A0082/23【19:1†source】.
+
+##A2:
+- No applicable NOTAMs
+
+##A3:
+- Runway 05/23 at VDSR is closed until 26 May 2023 at 2359 UTC due to WIP (Work in Progress). ID:A0078/23 .
+- Taxiway B closed until 26 May 2023 at 2359 UTC, same reason as above. ID:A0079/23 .
+
+##A4:
+- Daily bird activity reported in the vicinity of Siem Reap International Airport (VDSR) from sunrise to sunset until 30 Sep 2023 at 2359 UTC. Extra caution advised. ID:A0077/23.
+
+---
+
+#Airport: VOTV
+
+##A1:
+Based on the information available, the critical NOTAMs affecting airport operations at VOTV are:
+
+- **Airport Closure for Aarat Temple Procession**: The airport will be closed for all operations due to Aarat Temple procession on April 21, 2024, from 10:30 to 15:30 UTC. ID:[A0443/24]【19:0†source】.
+
+The other NOTAMs found for VOTV do not meet the criteria for "critical" as they relate to advisory information, operational limitations that do not include airport, runway closures or significant delays, instrument landing system issues, or other higher priority concerns:
+
+- **Collaborative Decision-Making (A-CDM) Not Available**: A-CDM is not available due to system integration. Effective from February 8, 2024, until May 8, 2024. ID:[A0375/24]【19:0†source】.
+
+- **Restrictions on Aircraft Movements on Runway**: Landing aircraft up to CODE C are permitted to make a 180-degree turn on the runway. CODE D/E aircraft can make turns only on turn pads. No aircraft are allowed to make pivotal turn by locking rear wheels on runway or turn pads. Effective from January 3, 2024, until April 7, 2024. ID:[A0040/24]【19:1†source】.
+
+- **Certain Aircraft Stands Not Available at Night**: Stands 1, 1A, 2, 3, 45 and 45A are not available for flight operations (arrival/departure) during the night from December 19, 2023, until March 20, 2024. ID:[A3679/23]【19:1†source】.
+
+- **AIP Amendments Notification (TRIGGER NOTAM)**: Announcement for amendments to AD2 VOTV (Thiruvananthapuram) in the AIRAC AIP SUP 39/2024 effective on April 18, 2024, until May 1, 2024. ID:[G0305/24]【19:2†source】.
+
+These NOTAMs are important for operators at VOTV to be aware of, but only the closure of the airport due to the Aarat Temple procession qualifies as critical within the provided parameters.
+
+##A2:
+Based on the review of the NOTAMs provided for VOTV, the issues reported are as follows:
+
+- **Instrument Landing System (ILS) Glide Path Unserviceable**: ILS glide path for runway 14 is unserviceable. Effective from March 20, 2024, until June 19, 2024. ID:[A0236/24] .
+
+- **VHF Omnidirectional Range (VOR) Unserviceable**: The Trivandrum VOR (TVM) at VOTV is unserviceable. Effective from January 16, 2024, until April 16, 2024. ID:[A0065/24] .
+
+- **Distance Measuring Equipment (DME) Unsuitability with Certain Conditions**: The DME associated with the ILS for runway 14 (I-TV) is unsuitable for use by aircraft using FM immunity less than 27 NM from VOTV. This issue is effective from February 2, 2024, until May 3, 2024. ID:[A0106/24] .
+
+There are no reported GPS RAIM anomalies for VOTV in the provided NOTAMs.
+
+##A3:
+Based on the provided NOTAMs for VOTV, the information related to runway availability, including closures, maintenance work, or conditions affecting runway usability, is summarized as follows:
+
+- **Runway 14/32 Lighting System Partially Unserviceable**: The lighting system on runway 14/32 at VOTV is partially unserviceable. This issue does not include PAPI (Precision Approach Path Indicator) lights but may impact operations during times of reduced visibility. The duration of this unserviceability is from January 4, 2024, until April 4, 2024. ID:[A0032/24] .
+
+- **Five Runway Edge Lights Unserviceable on Runway 14/32**: Specifically, five runway edge lights on runway 14/32 are reported as unserviceable. Lighting is crucial for operations during low visibility and night time; however, the impact is reduced due to the partial nature of the unserviceability. The NOTAM is in effect from February 20, 2024, until May 21, 2024. ID:[A0180/24] .
+
+- **Restrictions on Aircraft Movements on Runway**: Landing aircraft up to CODE C are permitted to make a 180-degree turn on the runway. CODE D/E aircraft can make turns only on turn pads located at the ends of the runway. No aircraft are allowed to make pivotal turns by locking rear wheels on the runway or turn pads. This operational limitation affects the usability of the runway for specific aircraft types. Effective from January 3, 2024, until April 7, 2024. ID:[A0040/24] .
+
+There is no explicit mention of full runway closures, maintenance work leading to closure, or conditions like snow, ice, or debris affecting runway usability. The NOTAMs provided mainly focus on issues with lighting and operational limitations which could impact the effectiveness of runway operations, particularly during night or adverse weather conditions.
+
+##A4:
+Regarding safety hazards within the airport premises or its immediate airspace at VOTV, the provided NOTAMs report the following issues:
+
+- **Increased Bird Activity**: There is a significant increase in bird activity in the vicinity of the approach path and runway 14/32 at VOTV. This poses a direct threat to aircraft during critical phases of flight such as take-off and landing. Effective from March 15, 2024, until June 14, 2024. ID:[A0250/24] .
+
+- **Drone Activity Not Permitted Without Permission**: Unauthorized drone activity is not permitted within 3 kilometers of VOTV up to 2000 feet above ground level. Drones can pose a significant risk to aircraft, especially during takeoff and landing phases. This NOTAM is in effect from January 20, 2024, until April 20, 2024. ID:[A0080/24] .
+
+Based on the provided NOTAMs, the bird activity poses the highest immediate threat to aircraft operations due to the potential for bird strikes, which can cause significant damage to aircraft. The prohibition of drone activity, while also crucial for safety, serves as a preventive measure to minimize the risk of collisions between aircraft and drones.
+
+---
+
+#Airport: VQPR
+
+##A1:
+No applicable NOTAMs
+
+##A2:
+No applicable NOTAMs
+
+##A3:
+No applicable NOTAMs
+
+##A4:
+No applicable NOTAMs
+
+---
+
+#Airport: VOGO
+
+##A1:
+Based on the provided NOTAMs, here are the critical NOTAMs affecting airport operations at VOGO:
+
+- ABN (Aerodrome beacon) not available due to maintenance. ID: A0759/24【15†source】.
+
+There are no other critical NOTAMs related to airport operations at VOGO found in the provided files.
+
+##A2:
+No applicable NOTAMs
+
+##A3:
+Based on the provided NOTAMs, there are no reported issues directly mentioning runway closures or conditions specifically affecting runway usability such as snow, ice, or debris at airport VOGO. However, there is a mention of modified bird activity which might indirectly impact runway operations:
+
+- Modified bird activity observed between 0200-0315, 0700-0800, and 0900-1030 daily. Pilots are advised to exercise caution while taking off and landing. ID: D0393/20【20:2†source】.
+
+There are no other NOTAMs in the provided files directly related to runway closures, maintenance work, or conditions affecting runway usability at VOGO.
+
+##A4:
+Based on the provided NOTAMs, the following safety hazard has been reported within the airport premises or its immediate airspace at VOGO:
+
+- Modified bird activity observed between 0200-0315, 0700-0800, and 0900-1030 daily. Pilots are advised to exercise caution while taking off and landing. ID: D0393/20【33:2†source】.
+
+There are no other NOTAMs reporting hazards such as drones or other aerial hazards at VOGO found in the provided files. The mentioned bird activity NOTAM is critical as it directly affects aircraft operations, posing a risk during the critical phases of takeoff and landing.

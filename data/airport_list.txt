@@ -1,0 +1,40 @@
+London Heathrow Airport - EGLL
+Frankfurt Airport, Germany - EDDF
+Charles de Gaulle Airport, France - LFPG
+Amsterdam Schiphol Airport, Netherlands - EHAM
+Madrid Barajas Airport, Spain - LEMD
+Istanbul Airport, Turkey - LTFM
+Zurich Airport, Switzerland - LSZH
+Munich Airport, Germany - EDDM
+Rome Fiumicino Airport, Italy - LIRF
+Dublin Airport, Ireland - EIDW
+London Gatwick Airport, UK (LGW) - EGKK
+Geneva Airport, Switzerland (GVA) - LSGG
+Linate Airport (Milan Linate Airport), Italy (LIN) - LIML
+Luxembourg Airport, Luxembourg (LUX) - ELLX
+Marseille Provence Airport, France (MRS) - LFML
+Nice Côte d'Azur Airport, France (NCE) - LFMN
+Porto Airport (Francisco Sá Carneiro Airport), Portugal (OPO) - LPPR
+Edinburgh Airport, UK (EDI) - EGPH
+Birmingham Airport, UK (BHX) - EGBB
+Southampton Airport, UK (SOU) - EGHI
+Tokyo Haneda Airport, Japan (HND) - RJTT
+Beijing Capital International Airport, China (PEK) - ZBAA
+Dubai International Airport, United Arab Emirates (DXB) - OMDB
+Hong Kong International Airport, Hong Kong (HKG) - VHHH
+Shanghai Pudong International Airport, China (PVG) - ZSPD
+Singapore Changi Airport, Singapore (SIN) - WSSS
+Incheon International Airport, South Korea (ICN) - RKSI
+Kuala Lumpur International Airport, Malaysia (KUL) - WMKK
+Suvarnabhumi Airport, Thailand (BKK) - VTBS
+Indira Gandhi International Airport, India (DEL) - VIDP
+Phuket International Airport, Thailand (HKT) - VTSP
+Langkawi International Airport, Malaysia (LGK) - WMKL
+Koh Samui Airport, Thailand (USM) - VTSM
+Male International Airport (Velana International Airport), Maldives (MLE) - VRMM
+Da Nang International Airport, Vietnam (DAD) - VVDN
+Luang Prabang International Airport, Laos (LPQ) - VLLB
+Siem Reap International Airport, Cambodia (REP) - VDSR
+Trivandrum International Airport, India (TRV) - VOTV
+Paro Airport, Bhutan (PBH) - VQPR
+Goa International Airport (Dabolim Airport), India (GOI) - VOGO
