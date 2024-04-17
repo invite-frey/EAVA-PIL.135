@@ -12,11 +12,15 @@ git clone https://github.com/invite-frey/EAVA-PIL.135.git
 cd code
 npm install
 ```
+
+### Requirements
+
+* A ChatGPT API account with a properly configured payment method.
+* Requires NodeJS https://nodejs.org/en
+
 ### Usage
 
-**NOTE 1:** Usage requires a ChatGPT API account with a properly configured payment method.
-
-**NOTE 2:** Follow the OpenAI guide to set up your API keys in your environment before running the code: https://platform.openai.com/docs/quickstart?context=node
+**NOTE:** Follow the OpenAI guide to set up your API keys in your environment before running the code: https://platform.openai.com/docs/quickstart?context=node
 
 The run_assistant app uses files located in the data folder as input as follows:
 
