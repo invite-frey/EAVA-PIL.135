@@ -8,7 +8,7 @@ This work investigates how the rapid development of Large-Scale Language models 
 ### Installing
 
 ```
-git clone git@github.com:invite-frey/fps-hk-qrcode.git
+git clone https://github.com/invite-frey/EAVA-PIL.135.git
 ```
 ### Usage
 
