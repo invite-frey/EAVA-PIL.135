@@ -24,7 +24,7 @@ The run_assistant app uses files located in the data folder as input as follows:
 * **Questions** : The questions used to query the LLM with in a file named "questions.txt". One question per line.
 * **Prompt** : The prompt used to query the LLM in a file named "prompt.txt".
 
-The app outputs answers to the questions as a markdown formatted file in answers-< run-uniqueid >.md 
+The app outputs answers to the questions as a markdown formatted file in answers-run-< uniqueid >.md 
 
 ```
 cd code
