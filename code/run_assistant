@@ -190,7 +190,7 @@ async function main() {
     const questions = await getQuestions()
     console.log("Found questions", questions)
     const now = new Date()
-    const outfile = dataDirPath + "/answers-run-" + now.toISOString().replaceAll(':', '').replaceAll('-', '') + ".txt"
+    const outfile = dataDirPath + "/answers-run-" + now.toISOString().replaceAll(':', '').replaceAll('-', '') + ".md"
     createFile(outfile)
 
     for (let index_a = 0; index_a < airports.length; index_a++) {
