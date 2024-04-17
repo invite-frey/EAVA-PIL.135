@@ -13,10 +13,10 @@ cd code
 npm install
 ```
 
-### Requirements
+### Prerequisites
 
 * A ChatGPT API account with a properly configured payment method.
-* Requires NodeJS https://nodejs.org/en
+* NodeJS https://nodejs.org/en
 
 ### Usage
 
