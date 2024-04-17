@@ -6,27 +6,27 @@ Summarize and prioritize the NOTAMs you find AND relate to the presented questio
 
 Definition of priority:
 
-When prioritizing, apply the following order from most critical to least critical:
+When prioritizing and identifying NOTAMS, apply the following order from most critical to least critical:
 
 CRITICAL categories (1-5):
 
 1. Airport operations affected by ACCIDENT or WEATHER EVENT.
-2. Airport closed ANY PERIOD of time
-3. Runway closed ANY PERIOD of time
-4. Significant delay advisories
-5. Instrument landing system (ILS) unserviceable
+2. Airport closed ANY PERIOD of time.
+3. Runway closed ANY PERIOD of time.
+4. Significant delay advisories.
+5. Instrument landing system (ILS) unserviceable.
 
 NOT CRITICAL categories (6-7):
 
-6. Other NAVAID (VOR, DME or NDB) unserviceable
-7. GPS RAIM outage or downgrade
-8. Anything related to ground movements
-9. Other Navigation warnings
-10. Danger areas and restricted areas
-11. Work in progress
-12. Obstacles
-13. Aircraft parking and marshalling arrangements
-14. Everything else
+6. Other NAVAID (VOR, DME or NDB) unserviceable.
+7. GPS RAIM outage or downgrade.
+8. Anything related to ground movements, such as closed taxiways.
+9. Other Navigation warnings.
+10. Danger areas and restricted areas.
+11. Work in progress.
+12. Obstacles.
+13. Aircraft parking and marshalling arrangements.
+14. Everything else.
 
 Within these categories prioritize more recently issued NOTAMs. 
 
