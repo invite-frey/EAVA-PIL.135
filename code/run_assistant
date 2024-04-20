@@ -15,19 +15,51 @@ const openailib = require('openai');
 const { throws } = require('assert');
 const openai = new openailib.OpenAI()
 const dataDirPath = "../data"
+const assistantName = "NOTAM Assistant"
+const vectorStoreName = "NOTAM Store"
+const llmModel = "gpt-3.5-turbo"
+    //const llmModel = "gpt-4-turbo-preview"
+    //const llmModel = "gpt-4-turbo"
 
-async function createAssistant(instructions, files) {
+async function createAssistant(instructions) {
     try {
         const assistant = await openai.beta.assistants.create({
-            name: "NOTAM Interpreter",
+            name: assistantName,
             instructions: instructions,
-            tools: [{ type: "retrieval" }],
+            tools: [{ type: "file_search" }],
             model: "gpt-4-turbo-preview",
-            file_ids: files
+            temperature: 0.1,
         });
         return assistant;
     } catch (error) {
         console.error(`Error creating assistant: ${error.message}`);
+    }
+}
+
+async function getAssistant() {
+    const myAssistants = await openai.beta.assistants.list({
+        order: "desc",
+        limit: "20",
+    });
+
+    const theAssistant = myAssistants.data.filter(a => a.name === assistantName)
+
+    if (theAssistant.length === 1) {
+        return theAssistant[0];
+    } else {
+        return null;
+    }
+
+}
+
+async function getVectorStore() {
+    const stores = await openai.beta.vectorStores.list();
+    const theStore = stores.data.filter(s => s.name === vectorStoreName)
+
+    if (theStore.length === 1) {
+        return theStore[0];
+    } else {
+        return null;
     }
 }
 
@@ -45,6 +77,18 @@ async function uploadAssistantFiles(files) {
 
     }
     return fileIds;
+}
+
+async function createVectorStore(files) {
+    const fileIds = await uploadAssistantFiles(files)
+
+    // Create a vector store including our files.
+    let vectorStore = await openai.beta.vectorStores.create({
+        name: vectorStoreName,
+        file_ids: fileIds,
+    });
+
+    return vectorStore;
 }
 
 function readFileIntoString(filePath) {
@@ -124,6 +168,17 @@ function extractICAOIdent(inputString) {
     }
 }
 
+function extractNOTAMIdents(text) {
+    // Define the regex pattern to match the specified format globally
+    const pattern = /[A-Z]\d{2,4}\/\d{2}/g;
+
+    // Search for all matches of the pattern in the text
+    const matches = text.match(pattern);
+
+    // Return the matches or indicate no matches were found
+    return [...new Set(matches)] || [];
+}
+
 async function getQuestions() {
     const lines = await readLinesIntoArray(`${dataDirPath}/questions.txt`)
     return lines;
@@ -138,7 +193,7 @@ async function askQuestion(questionText, thread) {
     const message = await openai.beta.threads.messages.create(
         thread.id, {
             role: "user",
-            content: questionText
+            content: "YOUR TASK: " + questionText
         }
     );
     return message;
@@ -180,32 +235,54 @@ async function main() {
     const prompt = readFileIntoString(`${dataDirPath}/prompt.txt`);
     console.log("Found prompt")
     const notams = getNotamFileNames(dataDirPath)
-    console.log("Found NOTAM files")
-    const uploadedFiles = await uploadAssistantFiles(notams)
-    console.log("Uploaded files to OpenAI")
-    const assistant = await createAssistant(prompt, uploadedFiles)
-    console.log("Assistant created, id: " + assistant.id)
+    console.log("Found " + notams.length + " NOTAM files")
+
+    let assistant = await getAssistant()
+
+    if (assistant === null) {
+        assistant = await createAssistant(prompt)
+        console.log("Assistant created, id: " + assistant.id)
+        let vectorStore = await getVectorStore()
+        if (vectorStore === null) {
+            vectorStore = await createVectorStore(notams)
+            console.log("Vector Store created, id: ", vectorStore.id)
+        } else {
+            console.log("Using existing vector store id: " + vectorStore.id)
+        }
+
+        await openai.beta.assistants.update(assistant.id, {
+            tool_resources: { file_search: { vector_store_ids: [vectorStore.id] } },
+        });
+        console.log("Updated assistant.")
+    } else {
+        console.log("Using existing assistant id: " + assistant.id)
+    }
+
     const airports = await getAirports()
     console.log("Found airports", airports)
     const questions = await getQuestions()
     console.log("Found questions", questions)
     const now = new Date()
     const outfile = dataDirPath + "/answers-run-" + now.toISOString().replaceAll(':', '').replaceAll('-', '') + ".md"
+    const outfileCsv = dataDirPath + "/answers-run-" + now.toISOString().replaceAll(':', '').replaceAll('-', '') + ".csv"
     createFile(outfile)
+    createFile(outfileCsv)
 
     for (let index_a = 0; index_a < airports.length; index_a++) {
         const airport = airports[index_a];
-        const thread = await openai.beta.threads.create();
+        //const thread = await openai.beta.threads.create();
         console.log("-------------------------------------------");
         writeLineToFile(outfile, "\n---\n")
         console.log(`Airport: ${airport}`)
         writeLineToFile(outfile, `# Airport: ${airport}`)
 
+        let retrycount = 0;
         for (let index_q = 0; index_q < questions.length; index_q++) {
-            let retrycount = 0;
-
+            const thread = await openai.beta.threads.create();
             const question = questions[index_q];
-            //console.log("")
+            if (retrycount > 0) {
+                console.log("Retrying question " + index_q)
+            }
             writeLineToFile(outfile, "")
                 //console.log(`Q${index+1}: ${question}`)
             await askQuestion(question.replace('XXXX', airport), thread);
@@ -216,17 +293,17 @@ async function main() {
             } else {
                 console.log(`##A${index_q+1}`)
                     //console.log(`${answer}`)
+                const notamIdents = extractNOTAMIdents(answer)
                 writeLineToFile(outfile, `## A${index_q+1}:`)
                 writeLineToFile(outfile, `${answer}`)
+                writeLineToFile(outfileCsv, `${airport},${index_q+1},${notamIdents.join(',')}`)
                 retrycount = 0;
             }
-
-
         }
 
     }
-    const response = await openai.beta.assistants.del(assistant.id);
-    console.log("Assistant deleted.")
+    //const response = await openai.beta.assistants.del(assistant.id);
+    //console.log("Assistant deleted.")
 }
 
 main();

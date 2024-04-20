@@ -8,9 +8,11 @@
 * Copyright (c) 2024 Frey Mansikkaniemi
 */
 
+const { dir } = require('console');
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
+const dirPath = "../data"
 
 // Function to parse command line arguments for the -o option
 function getOutputFilename() {
@@ -23,7 +25,7 @@ function getOutputFilename() {
 
 // Function to read all JSON files and combine their data into one array
 function combineJSONFiles() {
-    fs.readdir('.', (err, files) => {
+    fs.readdir(dirPath, (err, files) => {
         if (err) {
             console.error('Error reading directory:', err);
             return;
@@ -46,7 +48,7 @@ function combineJSONFiles() {
         console.log(`Combined JSON data ${combinedData.length}`);
         const filename = getOutputFilename();
         if( filename ){
-            writeArrayElementsToFile(combinedData,filename);
+            writeArrayElementsToFile(combinedData,dirPath + "/" + filename);
         }
     });
 }

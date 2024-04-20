@@ -1,4 +1,4 @@
-Review the NOTAMs for airport XXXX and identify ONLY NOTAMs in the CRITICAL categories.
+Review the NOTAMs for airport XXXX and identify ONLY NOTAMs in the CRITICAL categories. OMIT NOTAMs that are NOT categorized as critical according to the provided priority list.
 Review the NOTAMs for airport XXXX and identify ALL reported issues, directly or indirectly, affecting the Instrument Landing Systems (ILS), other NAVAIDs (VOR, DME, or NDB), and GPS RAIM anomalies. 
-Analyze the NOTAMs at airport XXXX to report on the current availability of runways. Include ALL NOTAMs related to runway closures, or conditions affecting runway usability (like maintenance, snow, ice, or debris). 
-Review the NOTAMs for airport XXXX that report safety hazards within the airport premises or its immediate airspace. These could include bird activity, drones, or other aerial hazards. OMIT NOTAMs reporting on obstacles that do NOT SPECIFY EFFECTS on runway usability.
+Analyze the NOTAMs at airport XXXX to report on the current availability of RUNWAYS. Include ALL NOTAMs related to runway closures, or conditions affecting runway usability (like maintenance, snow, ice, or debris). 
+Review the NOTAMs for airport XXXX that report safety hazards within the airport perimeter or its immediate airspace. These could include bird activity, drones, or other unusual hazards. 
