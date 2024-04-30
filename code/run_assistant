@@ -3,7 +3,11 @@
 /*
  * Creates and runs a ChatGPT assistant designed to query NOTAMs
  * 
- * Usage: ./run_assistant 
+ * Usage: ./run_assistant [-s]
+ * 
+ * Options:
+ * 
+ * -s Segregate airports, ie analyze them one by one. 
  *
  * Copyright (c) 2024 Frey Mansikkaniemi
  */
@@ -13,21 +17,24 @@ const readline = require('readline')
 const path = require('path');
 const openailib = require('openai');
 const { throws } = require('assert');
+const { exit } = require('process');
+const { Console } = require('console');
 const openai = new openailib.OpenAI()
 const dataDirPath = "../data"
 const assistantName = "NOTAM Assistant"
 const vectorStoreName = "NOTAM Store"
-const llmModel = "gpt-3.5-turbo"
-    //const llmModel = "gpt-4-turbo-preview"
-    //const llmModel = "gpt-4-turbo"
+//const llmModel = "gpt-3.5-turbo"
+//const llmModel = "gpt-4-turbo-preview"
+const llmModel = "gpt-4-turbo"
 
-async function createAssistant(instructions) {
+async function createAssistant(name,instructions,segregated) {
     try {
+        const tools = segregated ? [] : [{ type: "file_search" }]
         const assistant = await openai.beta.assistants.create({
-            name: assistantName,
+            name: name,
             instructions: instructions,
-            tools: [{ type: "file_search" }],
-            model: "gpt-4-turbo-preview",
+            tools: tools,
+            model: llmModel,
             temperature: 0.1,
         });
         return assistant;
@@ -36,13 +43,13 @@ async function createAssistant(instructions) {
     }
 }
 
-async function getAssistant() {
+async function getAssistant(name) {
     const myAssistants = await openai.beta.assistants.list({
         order: "desc",
         limit: "20",
     });
 
-    const theAssistant = myAssistants.data.filter(a => a.name === assistantName)
+    const theAssistant = myAssistants.data.filter(a => a.name === name)
 
     if (theAssistant.length === 1) {
         return theAssistant[0];
@@ -231,34 +238,98 @@ async function getAnswerFromAssistant(assistant, thread) {
     }
 }
 
-async function main() {
-    const prompt = readFileIntoString(`${dataDirPath}/prompt.txt`);
-    console.log("Found prompt")
-    const notams = getNotamFileNames(dataDirPath)
-    console.log("Found " + notams.length + " NOTAM files")
+// Function to parse command line arguments for the -s option
+function segregationSelected() {
+    const oIndex = process.argv.indexOf('-s');
+    if (oIndex !== -1 ) {
+        return true;
+    }
+    return false; // Default if -s is not provided or has no value
+}
 
-    let assistant = await getAssistant()
+// Function to read all JSON files and combine their data into one array
+function combineJSONFiles(dirPath) {
+    try {
+        const files = fs.readdirSync(dirPath)
+        let combinedData = [];
+
+        files.forEach(file => {
+            if (path.extname(file) === '.json') {
+                try {
+                    const data = fs.readFileSync(`${dirPath}/${file}`);
+                    const json = JSON.parse(data);
+                    combinedData = combinedData.concat(json);
+                } catch (error) {
+                    console.error(`Error reading or parsing ${file}:`, error);
+                    exit(1)
+                }
+            }
+        });
+
+        console.log(`Combined JSON data ${combinedData.length}`);
+        
+        return combinedData;
+    } catch (error) {
+        console.error('Error reading directory:', error);
+        exit(1);
+    }
+}
+
+function loadNOTAMS(dirPath){
+    const notams = combineJSONFiles(dirPath)
+    console.log("Loaded NOTAMs into array, found " + notams.length)
+    return notams;
+}
+
+function notamsForAirport(icaoIdent,allNotams){
+    console.log(`Finding NOTAMs for ${icaoIdent}`);
+    const notams = allNotams.filter( n => n.location === icaoIdent); 
+    return notams;
+}
+
+async function main() {
+    const runSegregated = segregationSelected()
+
+    if(runSegregated){
+        console.log("Running in segregated airports mode.")
+    }
+
+    let allNotams = runSegregated ? loadNOTAMS(dataDirPath) : []
+    const promptMainBody = readFileIntoString(`${dataDirPath}/prompt.txt`);
+    const prompt = runSegregated ? 
+        promptMainBody + "\n\n The provided files lists all valid NOTAMs. Only refer to this list; do NOT USE any other NOTAMs you may have knowledge of." :
+        "\n\n Use the list of NOTAMs provided by the user. Only refer to this list; do NOT USE any other NOTAMs you may have knowledge of."
+    console.log("Found prompt")
+
+    
+    const assistantNamePrecise = runSegregated ? `${assistantName} Airport by Airport` : assistantName
+    let assistant = await getAssistant(assistantNamePrecise)
 
     if (assistant === null) {
-        assistant = await createAssistant(prompt)
+        const notams = getNotamFileNames(dataDirPath)
+        console.log("Found " + notams.length + " NOTAM files")
+        assistant = await createAssistant(assistantNamePrecise, prompt,runSegregated)
         console.log("Assistant created, id: " + assistant.id)
-        let vectorStore = await getVectorStore()
-        if (vectorStore === null) {
-            vectorStore = await createVectorStore(notams)
-            console.log("Vector Store created, id: ", vectorStore.id)
-        } else {
-            console.log("Using existing vector store id: " + vectorStore.id)
-        }
 
-        await openai.beta.assistants.update(assistant.id, {
-            tool_resources: { file_search: { vector_store_ids: [vectorStore.id] } },
-        });
-        console.log("Updated assistant.")
+        if(!runSegregated){
+            let vectorStore = await getVectorStore()
+            if (vectorStore === null) {
+                vectorStore = await createVectorStore(notams)
+                console.log("Vector Store created, id: ", vectorStore.id)
+            } else {
+                console.log("Using existing vector store id: " + vectorStore.id)
+            }
+
+            await openai.beta.assistants.update(assistant.id, {
+                tool_resources: { file_search: { vector_store_ids: [vectorStore.id] } },
+            });
+            console.log("Updated assistant.")
+        }
     } else {
         console.log("Using existing assistant id: " + assistant.id)
     }
 
-    const airports = await getAirports()
+    const airports = ['RJTT']//await getAirports()
     console.log("Found airports", airports)
     const questions = await getQuestions()
     console.log("Found questions", questions)
@@ -270,6 +341,7 @@ async function main() {
 
     for (let index_a = 0; index_a < airports.length; index_a++) {
         const airport = airports[index_a];
+        const airportNotamList = notamsForAirport(airport,allNotams)
         //const thread = await openai.beta.threads.create();
         console.log("-------------------------------------------");
         writeLineToFile(outfile, "\n---\n")
@@ -279,7 +351,14 @@ async function main() {
         let retrycount = 0;
         for (let index_q = 0; index_q < questions.length; index_q++) {
             const thread = await openai.beta.threads.create();
-            const question = questions[index_q];
+            const question = runSegregated ? 
+                `${questions[index_q]}
+                List of all NOTAMs applicable to ${airport}:
+                
+                ${JSON.stringify(airportNotamList)}
+                ` 
+                : questions[index_q];
+            
             if (retrycount > 0) {
                 console.log("Retrying question " + index_q)
             }

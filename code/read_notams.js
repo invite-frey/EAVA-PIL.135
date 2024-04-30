@@ -36,11 +36,11 @@ function combineJSONFiles() {
         files.forEach(file => {
             if (path.extname(file) === '.json') {
                 try {
-                    const data = fs.readFileSync(file);
+                    const data = fs.readFileSync(dirPath + "/" +file);
                     const json = JSON.parse(data);
                     combinedData = combinedData.concat(json);
                 } catch (error) {
-                    console.error(`Error reading or parsing ${file}:`, error);
+                    console.error(`Error reading or parsing ${dirPath + "/" +file}:`, error);
                 }
             }
         });
@@ -62,17 +62,21 @@ function writeArrayElementsToFile(array,filename) {
 
     let text = ""
     let location = ""
+    let count = 0
 
     for (let index = 0; index < array.length; index++) {
         const element = array[index];
         
         if( element['location'] !== location ){
+            text += `\nTotal ${location}: ${count}\n`
             location = element['location']
             text += `\n\n# ${location}\n`
+            count = 0
         }
 
-        text += `\n## ${element['id']}\n`
+        text += `\n## ${element['id']}:\n`
         text += element['all'] + '\n\n'
+        count += 1
         
     }
 
