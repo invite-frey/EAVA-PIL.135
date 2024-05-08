@@ -1,7 +1,7 @@
 #!/usr/local/bin/node
 
 /*
-* Reads all json files in the current directory and aggregates their contents into a Markup-file.
+* Reads all json files in the ../data directory and aggregates their contents into a Markup-file.
 *
 * Usage: ./read-notams.js -o outputfile
 *
